@@ -30,16 +30,13 @@ class ProductSerializer(serializers.ModelSerializer):
         """
         if data['unit_price'] <= 0:
             raise serializers.ValidationError("The unit price must be a positive number.")
-        if data['inventory'] < 0:
-            raise serializers.ValidationError("The inventory cannot be negative.")
         return data
     
     
     def get_price_with_tax(self, product: Product):
         return product.unit_price * Decimal('1.15')
     
-    def calculate_tax(self, product: Product):
-        return product.unit_price * Decimal('1.15')
+
     
    
    

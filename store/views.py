@@ -8,20 +8,25 @@ from .models import Product
 from .serializers import ProductSerializer
 
 
-@api_view()
+@api_view(['GET', 'POST'])
 def product_list(request):
-	"""Render a page with a list of products.
-
-	- queries all Product objects (use select_related if you have a FK to speed up DB access)
-	- passes them to the template context under the key 'products'
-	"""
-	#products = Product.objects.all().select_related('collection')
-	queryset = Product.objects.all().select_related('collection') # this querry sets all products and their related collection in one go
-	serializer =ProductSerializer(queryset , many=True, # this serializes the querryset to json using the ProductSerializer
+	if request.method == 'GET':
+		queryset = Product.objects.all().select_related('collection') # this querry sets all products and their related collection in one go
+		serializer =ProductSerializer(queryset , many=True, # this serializes the querryset to json using the ProductSerializer
 							     context={'request': request}) # include request in context for HyperlinkedRelatedField
-	return Response(serializer.data)
+		
+		return Response(serializer.data)
+	
+	elif request.method == 'POST':
+		deserializer = ProductSerializer(data=request.data) # this deserializes the json data to a python object
+		if deserializer.is_valid():# check if the deserialized data is valid
+			deserializer.save() # save the new product to the database
 
-	#return render(request, 'store/product_list.html', {'product': product_list})
+			return Response(deserializer.data, status=status.HTTP_201_CREATED)
+		
+		return Response(deserializer.errors, status=status.HTTP_400_BAD_REQUEST)
+		
+
 @api_view()
 def product_detail(request,id):
 	"""Simple product detail view used from the list page."""
