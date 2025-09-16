@@ -19,13 +19,11 @@ def product_list(request):
 	
 	elif request.method == 'POST':
 		deserializer = ProductSerializer(data=request.data) # this deserializes the json data to a python object
-		if deserializer.is_valid():# check if the deserialized data is valid
-			deserializer.save() # save the new product to the database
+		deserializer.is_valid(raise_exception=True)# check if the deserialized data is valid
+		deserializer.validated_data # access the validated data
+		deserializer.save() # save the new product to the database
+		return Response(deserializer.data)
 
-			return Response(deserializer.data, status=status.HTTP_201_CREATED)
-		
-		return Response(deserializer.errors, status=status.HTTP_400_BAD_REQUEST)
-		
 
 @api_view()
 def product_detail(request,id):
