@@ -16,13 +16,14 @@ class ProductSerializer(serializers.ModelSerializer):
         view_name='store:collection-detail'
         )  
     
-    price_with_tax = serializers.SerializerMethodField()
 
     # meta class that defines the model and fields to be serialized
     class Meta:
         model = Product
-        fields = ['id', 'title', 'slug', 'description', 'unit_price', 'inventory', 'price_with_tax', 'collection']
-
+        fields = ['id', 'title', 'unit_price', 'price_with_tax', 'collection']
+    price_with_tax = serializers.SerializerMethodField()
+    
+    # custom validation method for the serializer
     def validate(self, data):
         """
         Validate that the product's unit price is a positive number and that the inventory is not negative.
