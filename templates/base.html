@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <meta charset="utf-8">
+    <link rel="icon" href="{% static 'favicon.ico' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}Sabbir Inc.{% endblock %}</title>
+
+    {# Core CSS (Bulma) - keep the project's choice but allow overrides via block #}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    {% block styles %}{% endblock %}
+    {% block extra_head %}{% endblock %}
+
+    <style>
+        /* Small niceties for consistent layout */
+        html, body { height: 100%; }
+        .site-content { min-height: calc(100vh - 160px); }
+    </style>
+</head>
+
+<body>
+    {# optional top navbar included from a reusable partial if present #}
+    {% include 'base/navbar.html' %}
+
+    <main class="section site-content">
+        <div class="container">
+            {# messages (Django messages framework) #}
+            {% if messages %}
+            <div class="notification is-light">
+                {% for message in messages %}
+                    <div class="notification {% if message.tags %}is-{{ message.tags }}{% endif %}">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            {% block content %}
+            <!-- Page content goes here -->
+            {% endblock %}
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                &copy; {% now "Y" %} Sabbir Inc. — Built with Django.
+            </p>
+        </div>
+    </footer>
+
+    {# Navbar burger helper (Bulma) - leaves markup in partial untouched #}
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+            if ($navbarBurgers.length > 0) {
+                $navbarBurgers.forEach(el => {
+                    el.addEventListener('click', () => {
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+                        el.classList.toggle('is-active');
+                        if ($target) $target.classList.toggle('is-active');
+                    });
+                });
+            }
+        });
+    </script>
+
+    {% block scripts %}{% endblock %}
+
+    {# Debug toolbar placeholder will inject its scripts automatically if installed #}
+    {% if debug %}
+        <!-- debug toolbar active -->
+    {% endif %}
+</body>
+
+</html>

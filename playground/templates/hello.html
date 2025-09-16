@@ -1,0 +1,21 @@
+<!--  This is a template file for rendering HTML content in a Django application.
+# It uses Django's templating language to conditionally display content based on the presence of a variable named 'name'.
+# If 'name' is provided, it displays a personalized greeting; otherwise, it defaults to "HELLO WORLD!".-->
+
+<html>
+<h1> FARM To FORK </h1>
+<body>
+{%if name%}
+<h1> {{ name }} store </h1>
+{%else%}
+<h1>HELLO WORLD!</h1> 
+{%endif%} 
+<u1>
+    {%for rows in products %}
+        <li> {{rows.title}} 
+                        -- {{rows.unit_price}}"$"</li>
+    {%endfor%}
+
+</u1>
+</body>
+</html>

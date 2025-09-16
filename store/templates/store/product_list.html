@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Products</h1>
+  {% if products %}
+    <ul>
+      {% for p in products %}
+        <li>
+          <a href="{% url 'store:product-detail' p.pk %}">{{ p.title }}</a>
+          - {{ p.unit_price }}
+          {% if p.collection %} (Collection: {{ p.collection.title }}){% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No products found.</p>
+  {% endif %}
+{% endblock %}
