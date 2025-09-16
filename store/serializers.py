@@ -8,22 +8,27 @@ class CollectionSerializer(serializers.ModelSerializer):
         fields = ['id', 'title']
 
 class ProductSerializer(serializers.ModelSerializer):
-    #serializer for the Product model
-    #collection = CollectionSerializer(read_only=True)
     
-    collection = serializers.HyperlinkedRelatedField(
-        queryset=Collection.objects.all(),
-        view_name='store:collection-detail'
-        )  
-    
-
     # meta class that defines the model and fields to be serialized
+    
     class Meta:
         model = Product
-        fields = ['id', 'title', 'unit_price', 'price_with_tax', 'collection']
-    price_with_tax = serializers.SerializerMethodField()
+        fields = ['id', 'title', 'unit_price', 'inventory', 'price_with_tax', 'collection']
     
-    # custom validation method for the serializer
+    price_with_tax = serializers.SerializerMethodField() # computed field for price with tax using SerializerMethodField 
+    
+    collection = serializers.PrimaryKeyRelatedField(queryset=Collection.objects.all())# foreign key relationship to the Collection model using PrimaryKeyRelatedField
+
+    
+    
+    #collection  = CollectionSerializer() # nested serializer for the related collection field
+        #collection = serializers.HyperlinkedRelatedField(
+            #queryset=Collection.objects.all(),
+            #view_name='store:collection-detail'
+        #)  
+    
+
+    # custom validation method for the serializer that overides the serilacer validator
     def validate(self, data):
         """
         Validate that the product's unit price is a positive number and that the inventory is not negative.
@@ -34,7 +39,8 @@ class ProductSerializer(serializers.ModelSerializer):
     
     
     def get_price_with_tax(self, product: Product):
-        return product.unit_price * Decimal('1.15')
+
+        return Decimal(product.unit_price) * Decimal('1.15')
     
 
     
