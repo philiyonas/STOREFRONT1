@@ -125,7 +125,7 @@ class Address(models.Model):
 
 class OrderItem(models.Model):
     order=models.ForeignKey(Order, on_delete=models.PROTECT)# if an order is deleted all its items are not deleted as well and an error is raised 
-    product = models.ForeignKey(Product, related_name='orderitems', on_delete=models.PROTECT)
+    product = models.ForeignKey(Product, on_delete=models.PROTECT, related_name='orderitems')
     quantity=models.PositiveSmallIntegerField()
     unit_price=models.DecimalField(max_digits=6, decimal_places=2)
 
