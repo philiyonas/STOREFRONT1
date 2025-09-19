@@ -15,7 +15,7 @@ from rest_framework.views import APIView
 from rest_framework.mixins import ListModelMixin, CreateModelMixin, RetrieveModelMixin, UpdateModelMixin, DestroyModelMixin
 from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView 
 from rest_framework.viewsets import ModelViewSet 
-
+#product and products/1/ and collections and collections/1/ with one api view set for each
 class ProductViewSet(ModelViewSet):
 	queryset = Product.objects.all() # this querry sets all products and their related collection in one go
 	serializer_class = ProductSerializer
