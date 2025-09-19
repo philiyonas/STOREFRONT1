@@ -21,22 +21,16 @@ class Collection(models.Model):
 
 class Promotion(models.Model):
     description=models.CharField(max_length=255)
-    discount=models.FloatField()# percentage discount
-    def __str__(self):
+    discount=models.FloatField()# discount is a float field representing percentage discount e.g. 10.5 for 10.5% discount and it can be refernced in the Product model. e.g. promotions.discount=10.5return self.description
+    def __str__(self):# string representation of the model, used in the admin site and in the shel for easy identification of the model instance
         return self.description
-    class Meta:
+    class Meta:# meta class to define model metadata like ordering and verbose name,metadata is not a field metada means data about data example verbose name is metadata about the model
         ordering=['description'] # default ordering by description
 
-    
-        
-
-                                        #a many-to-one relation; each Collection points to a single Product instance. The related_name='+' tells Django not to create a reverse relation from Product to Collection, which is useful if you don't need to access collections from a product.    
    
-
-
 def get_uncategorized_collection_pk():
-    Collection = apps.get_model('store', 'Collection')
-    obj, _ = Collection.objects.get_or_create(title='Uncategorized')
+    Collection = apps.get_model('store', 'Collection')# get the Collection model from the store app
+    obj, _ = Collection.objects.get_or_create(title='Uncategorized')# create the collection if it doesn't exist
     return obj.pk
 
 class Product(models.Model):

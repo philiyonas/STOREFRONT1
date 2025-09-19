@@ -11,6 +11,7 @@ from .serializers import ProductSerializer , CollectionSerializer
 from django.db.models import Count
 
 
+
 @api_view(['GET', 'POST']) # specify allowed methods using my decorator from rest_framework
 def product_list(request):
 	if request.method == 'GET':

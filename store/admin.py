@@ -185,7 +185,6 @@ class CollectionAdmin(admin.ModelAdmin):
 
     def get_queryset(self, request):
         return super().get_queryset(request).annotate(
-            # for Count() import this => from django.db.models import Count
             products_count=Count('products')
         )
 
