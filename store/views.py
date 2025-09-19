@@ -16,8 +16,8 @@ from rest_framework.mixins import ListModelMixin, CreateModelMixin, RetrieveMode
 from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView 
 
 
-class ProductListCreate(ListCreateAPIView):
-	queryset = Product.objects.all().select_related('collection') # this querry sets all products and their related collection in one go
+class ProductList(ListCreateAPIView):
+	queryset = Product.objects.all() # this querry sets all products and their related collection in one go
 	serializer_class = ProductSerializer
 	
 	def get_serializer_context(self):
@@ -38,7 +38,7 @@ class ProductDetail(RetrieveUpdateDestroyAPIView):
 		return Response(status=status.HTTP_204_NO_CONTENT) # return a 204 status code indicating
 		# that the product was successfully deleted and there is no content to return
 
-class CollectionListCreate(ListCreateAPIView):
+class CollectionList(ListCreateAPIView):
 	queryset = Collection.objects.annotate(products_count=Count('products')) # annotate each collection with the count of related products
 	serializer_class = CollectionSerializer
 
