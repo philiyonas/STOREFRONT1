@@ -14,45 +14,31 @@ from rest_framework import status
 from rest_framework.views import APIView
 from rest_framework.mixins import ListModelMixin, CreateModelMixin, RetrieveModelMixin, UpdateModelMixin, DestroyModelMixin
 from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView 
+from rest_framework.viewsets import ModelViewSet 
 
-
-class ProductList(ListCreateAPIView):
+class ProductViewSet(ModelViewSet):
 	queryset = Product.objects.all() # this querry sets all products and their related collection in one go
 	serializer_class = ProductSerializer
 	
 	def get_serializer_context(self):
 		return {'request': self.request} # include request in context for HyperlinkedRelatedField
- 	 		
-class ProductDetail(RetrieveUpdateDestroyAPIView):
-	queryset = Product.objects.all() # this querry sets all products and their related collection in one go
-	serializer_class = ProductSerializer # serialize the product to json using the ProductSerializer
 	
-	def get_serializer_context(self):
-		return {'request': self.request} # include request in context for HyperlinkedRelatedField
-	
-	def delete(self, request, pk):
-		product = get_object_or_404(Product, pk=pk)
-		if product.orderitems.count() > 0:
+	def destroy(self, request, *args, **kwargs):
+		if OrderItem.objects.filter(product_id=kwargs['pk']).count() > 0 :
 			return Response({'error':'product cannot be deleted b/c it has an order'}, status=status.HTTP_405_METHOD_NOT_ALLOWED)
-		product.delete()
-		return Response(status=status.HTTP_204_NO_CONTENT) # return a 204 status code indicating
-		# that the product was successfully deleted and there is no content to return
-
-class CollectionList(ListCreateAPIView):
-	queryset = Collection.objects.annotate(products_count=Count('products')) # annotate each collection with the count of related products
+		
+		return super().destroy(request, *args, **kwargs)
+	
+class CollectionViewSet(ModelViewSet):
+	queryset = Collection.objects.annotate(
+		products_count=Count('products')).all() # annotate each collection with the count of related products
 	serializer_class = CollectionSerializer
 
 	def get_serializer_context(self):
 		return {'request': self.request} # include request in context for HyperlinkedRelatedField
-
-class CollectionDetail(RetrieveUpdateDestroyAPIView):
-	queryset = Collection.objects.all() # this querry sets all products and their related collection in one go
-	serializer_class = CollectionSerializer
-
-	def delete(self, request, pk):
-		collection = get_object_or_404(Collection, pk=pk)
+	
+	def destroy(self, request, *args, **kwargs):
+		collection = get_object_or_404(Collection, pk=kwargs['pk'])
 		if Product.objects.filter(collection=collection).exists():
 			return Response({'error':'collection cannot be deleted b/c it has a product'}, status=status.HTTP_405_METHOD_NOT_ALLOWED)
-		collection.delete()
-		return Response(status=status.HTTP_204_NO_CONTENT) # return a 204 status code indicating
-		# that the collection was successfully deleted and there is no content to return
+		return super().destroy(request, *args, **kwargs)
