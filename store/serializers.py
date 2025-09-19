@@ -3,9 +3,12 @@ from store.models import Product, Collection
 from rest_framework import serializers
 
 class CollectionSerializer(serializers.ModelSerializer):
+    # include annotated products_count when present
+    products_count = serializers.IntegerField(read_only=True)
+
     class Meta:
         model = Collection
-        fields = ['id', 'title']
+        fields = ['id', 'title', 'products_count']
 
 class ProductSerializer(serializers.ModelSerializer):
     
@@ -41,10 +44,9 @@ class ProductSerializer(serializers.ModelSerializer):
     def get_price_with_tax(self, product: Product):
 
         return Decimal(product.unit_price) * Decimal('1.15')
-    
 
-    
-   
-   
 
-   
+
+
+
+

@@ -1,5 +1,9 @@
 from django.contrib import admin, messages
 from django.http import HttpRequest
+from django.urls import reverse
+from django.utils.html import format_html
+from django.utils.http import urlencode
+from django.db.models import Count
 
 from tags.models import TaggedItem  
 from .models import Collection, Customer, Order, OrderItem, Product, Promotion
@@ -168,6 +172,22 @@ class CollectionAdmin(admin.ModelAdmin):
     # required when another ModelAdmin uses autocomplete_fields to reference Collection
     list_display = ['title','id']
     search_fields = ['title']
+    # didn't get this section will review
+    @admin.display(ordering='products_count')
+    def products_count(self, collection):
+        url = (
+            reverse('admin:store_product_changelist')
+            + '?'
+            + urlencode({
+                'collection__id': str(collection.id)
+            }))
+        return format_html('<a href="{}">{}</a>', url, collection.products_count)
+
+    def get_queryset(self, request):
+        return super().get_queryset(request).annotate(
+            # for Count() import this => from django.db.models import Count
+            products_count=Count('products')
+        )
 
     #list_display = ['title']
     # # re-register Collection with its ModelAdmin

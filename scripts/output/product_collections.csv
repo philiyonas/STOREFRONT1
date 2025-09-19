@@ -1,0 +1,1013 @@
+product_id,title,collection_id,collection_title,last_update,unit_price,inventory
+2,Island Oasis - Raspberry,2,Grocery,2020-07-07T00:00:00+00:00,84.64,40
+3,"Shrimp - 21/25, Peel And Deviened",3,Beauty,2021-04-05T00:00:00+00:00,11.52,29
+4,Wood Chips - Regular,4,Cleaning,2020-07-20T00:00:00+00:00,73.47,40
+5,"Lettuce - Mini Greens, Whole",5,Stationary,2020-08-18T00:00:00+00:00,60.21,56
+6,Mustard - Individual Pkg,14,Uncategorized,2020-10-25T00:00:00+00:00,76.62,18
+7,Turkey Tenderloin Frozen,14,Uncategorized,2020-08-08T00:00:00+00:00,13.64,48
+8,Silicone Parch. 16.3x24.3,14,Uncategorized,2021-06-03T00:00:00+00:00,85.76,55
+9,"Tomatoes - Cherry, Yellow",14,Uncategorized,2021-03-03T00:00:00+00:00,30.81,45
+10,Sloe Gin - Mcguinness,14,Uncategorized,2021-04-18T00:00:00+00:00,2.82,69
+11,Wine - Magnotta - Belpaese,14,Uncategorized,2021-01-19T00:00:00+00:00,37.72,71
+12,"Beer - Alexander Kieths, Pale Ale",14,Uncategorized,2020-12-28T00:00:00+00:00,92.74,55
+13,Basil - Thai,14,Uncategorized,2020-07-07T00:00:00+00:00,50.07,41
+14,Tofu - Soft,14,Uncategorized,2020-08-29T00:00:00+00:00,88.70,24
+15,Mayonnaise - Individual Pkg,14,Uncategorized,2020-07-25T00:00:00+00:00,81.81,35
+16,Sauce - Hollandaise,14,Uncategorized,2020-07-16T00:00:00+00:00,9.09,63
+17,"Salt - Rock, Course",14,Uncategorized,2021-03-05T00:00:00+00:00,41.53,60
+18,"Beef - Ox Tail, Frozen",14,Uncategorized,2020-07-26T00:00:00+00:00,80.97,85
+19,"Schnappes - Peach, Walkers",14,Uncategorized,2021-05-14T00:00:00+00:00,81.97,10
+20,Cheese - Parmesan Cubes,14,Uncategorized,2020-08-12T00:00:00+00:00,32.94,97
+21,Sweet Pea Sprouts,14,Uncategorized,2021-01-14T00:00:00+00:00,31.93,49
+22,Straw - Regular,14,Uncategorized,2020-11-13T00:00:00+00:00,76.59,56
+23,Peach - Fresh,14,Uncategorized,2021-01-22T00:00:00+00:00,2.95,63
+24,Chinese Foods - Pepper Beef,8,Spices,2020-10-31T00:00:00+00:00,86.30,64
+25,Guava,14,Uncategorized,2021-05-05T00:00:00+00:00,17.53,96
+26,"Tendrils - Baby Pea, Organic",14,Uncategorized,2021-03-24T00:00:00+00:00,18.18,0
+27,Sugar - Brown,7,Baking,2020-10-24T00:00:00+00:00,65.01,84
+28,Oil - Pumpkinseed,14,Uncategorized,2021-02-11T00:00:00+00:00,86.27,90
+29,"Beef - Tongue, Cooked",14,Uncategorized,2021-02-07T00:00:00+00:00,73.48,82
+30,Goat - Leg,14,Uncategorized,2021-03-01T00:00:00+00:00,83.98,66
+31,Orange Roughy 4/6 Oz,14,Uncategorized,2021-05-26T00:00:00+00:00,99.48,79
+32,Lemons,14,Uncategorized,2021-06-03T00:00:00+00:00,29.08,83
+33,Turnip - Mini,14,Uncategorized,2021-03-23T00:00:00+00:00,13.93,8
+34,Hinge W Undercut,14,Uncategorized,2020-08-23T00:00:00+00:00,20.24,45
+35,Cheese - Mozzarella,14,Uncategorized,2020-10-13T00:00:00+00:00,34.71,76
+36,Basil - Fresh,5,Stationary,2021-06-07T00:00:00+00:00,11.80,2
+37,Pastry - Choclate Baked,14,Uncategorized,2020-11-17T00:00:00+00:00,61.87,12
+38,Vol Au Vents,14,Uncategorized,2021-04-29T00:00:00+00:00,81.78,98
+39,Tomatoes - Roma,14,Uncategorized,2020-09-04T00:00:00+00:00,29.81,61
+40,Bread - Hamburger Buns,2,Grocery,2021-04-07T00:00:00+00:00,51.39,8
+41,Cheese - Cambozola,5,Stationary,2020-12-22T00:00:00+00:00,64.20,54
+42,Cup - 4oz Translucent,14,Uncategorized,2020-08-29T00:00:00+00:00,71.97,52
+43,Macaroons - Two Bite Choc,14,Uncategorized,2021-05-15T00:00:00+00:00,14.87,38
+44,Vinegar - Raspberry,14,Uncategorized,2021-02-10T00:00:00+00:00,52.43,88
+45,Cake - Night And Day Choclate,7,Baking,2020-09-26T00:00:00+00:00,84.60,93
+46,Wine - Domaine Boyar Royal,14,Uncategorized,2020-07-14T00:00:00+00:00,39.61,92
+47,Sword Pick Asst,14,Uncategorized,2021-04-28T00:00:00+00:00,75.08,15
+48,Sage - Ground,5,Stationary,2021-06-06T00:00:00+00:00,16.75,94
+49,Muffin Mix - Chocolate Chip,14,Uncategorized,2020-07-07T00:00:00+00:00,93.49,16
+50,Tia Maria,14,Uncategorized,2020-06-11T00:00:00+00:00,69.22,14
+51,Apple - Fuji,5,Stationary,2021-05-05T00:00:00+00:00,20.42,94
+52,"Veal - Tenderloin, Untrimmed",14,Uncategorized,2020-06-14T00:00:00+00:00,89.46,44
+53,Mushroom - Crimini,14,Uncategorized,2021-01-19T00:00:00+00:00,42.13,58
+54,Parsley Italian - Fresh,14,Uncategorized,2021-04-24T00:00:00+00:00,85.92,93
+55,Tart - Pecan Butter Squares,14,Uncategorized,2020-09-06T00:00:00+00:00,91.98,43
+56,Vinegar - Tarragon,14,Uncategorized,2021-05-09T00:00:00+00:00,7.30,60
+57,Beef - Tender Tips,5,Stationary,2021-01-01T00:00:00+00:00,8.83,5
+58,Chicken - Whole Roasting,14,Uncategorized,2021-04-07T00:00:00+00:00,47.43,11
+59,Water - Tonic,14,Uncategorized,2020-08-14T00:00:00+00:00,36.84,13
+60,Shrimp - Tiger 21/25,14,Uncategorized,2020-07-21T00:00:00+00:00,64.38,100
+61,Hagen Daza - Dk Choocolate,14,Uncategorized,2020-09-25T00:00:00+00:00,37.63,43
+62,Grenadillo,14,Uncategorized,2020-10-14T00:00:00+00:00,14.57,34
+63,Coffee - 10oz Cup 92961,14,Uncategorized,2020-09-22T00:00:00+00:00,26.36,34
+64,Seabream Whole Farmed,14,Uncategorized,2021-02-13T00:00:00+00:00,59.91,32
+65,Coconut Milk - Unsweetened,2,Grocery,2021-03-10T00:00:00+00:00,79.79,12
+66,Soap - Mr.clean Floor Soap,4,Cleaning,2020-06-13T00:00:00+00:00,38.03,31
+67,Cheese - Cambozola,14,Uncategorized,2021-01-13T00:00:00+00:00,19.49,33
+68,Soup Campbells Mexicali Tortilla,14,Uncategorized,2021-04-14T00:00:00+00:00,93.16,7
+69,Apron,5,Stationary,2021-02-10T00:00:00+00:00,4.66,6
+70,Wine - Penfolds Koonuga Hill,5,Stationary,2020-12-10T00:00:00+00:00,1.27,15
+71,Milk - Chocolate 250 Ml,2,Grocery,2020-08-19T00:00:00+00:00,1.88,25
+72,Beer - Paulaner Hefeweisse,14,Uncategorized,2020-10-10T00:00:00+00:00,36.96,43
+73,Chocolate - Feathers,14,Uncategorized,2020-11-02T00:00:00+00:00,65.35,50
+74,"Club Soda - Schweppes, 355 Ml",14,Uncategorized,2021-04-13T00:00:00+00:00,90.39,72
+75,Corn Kernels - Frozen,14,Uncategorized,2020-10-12T00:00:00+00:00,98.61,53
+76,Cheese Cloth No 60,14,Uncategorized,2020-12-08T00:00:00+00:00,66.25,72
+77,Chips - Assorted,5,Stationary,2020-07-06T00:00:00+00:00,86.36,93
+78,Bagelers,14,Uncategorized,2020-08-29T00:00:00+00:00,82.37,39
+79,"Corn - Cream, Canned",14,Uncategorized,2021-05-13T00:00:00+00:00,85.46,24
+80,Bread - Raisin,2,Grocery,2020-07-09T00:00:00+00:00,8.70,70
+81,Soup - Campbells,14,Uncategorized,2020-12-15T00:00:00+00:00,8.13,29
+82,Ecolab - Hobart Washarm End Cap,14,Uncategorized,2020-10-25T00:00:00+00:00,83.36,67
+83,"Asparagus - White, Canned",14,Uncategorized,2020-07-27T00:00:00+00:00,71.01,17
+84,Muffin Mix - Lemon Cranberry,14,Uncategorized,2020-12-23T00:00:00+00:00,47.63,11
+85,"Shrimp - 16/20, Peeled Deviened",14,Uncategorized,2021-06-07T00:00:00+00:00,1.08,58
+86,"Soda Water - Club Soda, 355 Ml",14,Uncategorized,2021-05-04T00:00:00+00:00,90.06,88
+87,Napkin White - Starched,14,Uncategorized,2020-10-10T00:00:00+00:00,30.95,52
+88,Beer - Steamwhistle,14,Uncategorized,2020-06-20T00:00:00+00:00,11.89,59
+89,Pail For Lid 1537,14,Uncategorized,2020-10-11T00:00:00+00:00,35.85,92
+90,Chinese Foods - Chicken Wing,5,Stationary,2020-12-28T00:00:00+00:00,28.87,48
+91,Spice - Montreal Steak Spice,8,Spices,2021-05-15T00:00:00+00:00,35.71,32
+92,"Juice - Grapefruit, 341 Ml",14,Uncategorized,2020-07-16T00:00:00+00:00,33.37,26
+93,Wine - Wyndham Estate Bin 777,5,Stationary,2020-12-29T00:00:00+00:00,3.34,87
+94,"Water - Mineral, Natural",5,Stationary,2020-07-16T00:00:00+00:00,61.59,71
+95,"Chicken - Leg, Boneless",14,Uncategorized,2020-06-21T00:00:00+00:00,84.83,15
+96,Sunflower Seed Raw,1,Flowers,2020-10-19T00:00:00+00:00,28.16,2
+97,Energy Drink Bawls,14,Uncategorized,2021-02-23T00:00:00+00:00,87.65,31
+98,"Tarragon - Primerba, Paste",14,Uncategorized,2020-08-11T00:00:00+00:00,20.87,38
+99,Table Cloth 62x120 Colour,14,Uncategorized,2021-03-20T00:00:00+00:00,27.91,96
+100,Lamb - Loin Chops,14,Uncategorized,2021-02-20T00:00:00+00:00,87.47,40
+101,Sherry - Dry,14,Uncategorized,2020-06-27T00:00:00+00:00,70.52,32
+102,Chickensplit Half,14,Uncategorized,2021-03-02T00:00:00+00:00,93.81,66
+103,Tea - Orange Pekoe,14,Uncategorized,2020-07-12T00:00:00+00:00,12.71,77
+104,Sauce - Caesar Dressing,14,Uncategorized,2020-09-03T00:00:00+00:00,98.89,62
+105,Rice - Brown,14,Uncategorized,2020-06-20T00:00:00+00:00,83.88,24
+106,"Soup - Knorr, Ministrone",14,Uncategorized,2020-07-30T00:00:00+00:00,4.88,22
+107,Wine - Cotes Du Rhone Parallele,14,Uncategorized,2021-04-13T00:00:00+00:00,13.89,10
+108,Chips Potato All Dressed - 43g,2,Grocery,2020-10-23T00:00:00+00:00,35.65,13
+109,Sugar - Crumb,7,Baking,2021-01-08T00:00:00+00:00,5.07,95
+110,Ice Cream - Strawberry,14,Uncategorized,2021-04-06T00:00:00+00:00,22.63,7
+111,Paper Cocktail Umberlla 80 - 180,5,Stationary,2021-04-14T00:00:00+00:00,94.11,94
+112,Salmon - Canned,14,Uncategorized,2021-02-26T00:00:00+00:00,80.67,59
+113,"Seedlings - Buckwheat, Organic",14,Uncategorized,2020-08-14T00:00:00+00:00,44.29,80
+114,"Cheese - Brie, Triple Creme",14,Uncategorized,2020-08-06T00:00:00+00:00,46.60,66
+115,Phyllo Dough,14,Uncategorized,2021-02-03T00:00:00+00:00,35.53,45
+116,Pastry - Banana Muffin - Mini,14,Uncategorized,2020-12-29T00:00:00+00:00,85.57,59
+117,Jameson - Irish Whiskey,14,Uncategorized,2020-11-25T00:00:00+00:00,65.52,97
+118,Praline Paste,14,Uncategorized,2021-04-02T00:00:00+00:00,57.27,3
+119,Flour - Fast / Rapid,7,Baking,2020-11-03T00:00:00+00:00,77.83,79
+120,Sausage - Meat,14,Uncategorized,2020-06-22T00:00:00+00:00,49.77,44
+121,Wine - Vovray Sec Domaine Huet,14,Uncategorized,2021-01-11T00:00:00+00:00,2.20,84
+122,Ecolab - Hand Soap Form Antibac,4,Cleaning,2020-09-17T00:00:00+00:00,44.58,96
+123,Melon - Honey Dew,5,Stationary,2021-04-24T00:00:00+00:00,57.94,55
+124,"Dill - Primerba, Paste",14,Uncategorized,2020-11-11T00:00:00+00:00,97.81,72
+125,"Pork - Ham, Virginia",14,Uncategorized,2021-03-06T00:00:00+00:00,97.58,74
+126,"Pasta - Cannelloni, Sheets, Fresh",14,Uncategorized,2021-01-20T00:00:00+00:00,86.27,5
+127,Apple - Macintosh,14,Uncategorized,2021-01-07T00:00:00+00:00,19.96,45
+128,Vodka - Moskovskaya,14,Uncategorized,2021-04-19T00:00:00+00:00,43.45,74
+129,Curry Powder,14,Uncategorized,2021-01-30T00:00:00+00:00,32.31,42
+130,Sauce - Vodka Blush,14,Uncategorized,2020-07-20T00:00:00+00:00,53.31,27
+131,Venison - Ground,5,Stationary,2021-05-13T00:00:00+00:00,15.76,26
+132,"Doilies - 8, Paper",5,Stationary,2020-09-09T00:00:00+00:00,46.59,79
+133,Vaccum Bag - 14x20,14,Uncategorized,2021-01-08T00:00:00+00:00,57.26,15
+134,Gherkin,14,Uncategorized,2020-08-20T00:00:00+00:00,8.68,94
+135,"Water - Mineral, Natural",14,Uncategorized,2021-05-13T00:00:00+00:00,58.27,17
+136,Ecolab - Solid Fusion,14,Uncategorized,2021-03-22T00:00:00+00:00,94.84,71
+137,Bar - Sweet And Salty Chocolate,14,Uncategorized,2020-07-03T00:00:00+00:00,50.15,46
+138,Spice - Peppercorn Melange,8,Spices,2020-12-29T00:00:00+00:00,86.52,58
+139,Chicken Breast Wing On,14,Uncategorized,2020-06-21T00:00:00+00:00,42.81,31
+140,Sauce - Roasted Red Pepper,8,Spices,2021-01-13T00:00:00+00:00,39.14,35
+141,Mackerel Whole Fresh,14,Uncategorized,2021-02-08T00:00:00+00:00,24.36,98
+142,Glass Clear 8 Oz,14,Uncategorized,2020-08-11T00:00:00+00:00,4.34,97
+143,"Soup - Campbells, Spinach Crm",14,Uncategorized,2021-01-03T00:00:00+00:00,15.47,18
+144,Pork Salted Bellies,14,Uncategorized,2021-04-14T00:00:00+00:00,61.50,50
+145,"Juice - Pineapple, 48 Oz",14,Uncategorized,2020-09-08T00:00:00+00:00,73.24,31
+146,Cheese - Comtomme,14,Uncategorized,2020-11-27T00:00:00+00:00,20.58,65
+147,Cookie Dough - Peanut Butter,7,Baking,2020-07-14T00:00:00+00:00,49.25,71
+148,Paste - Black Olive,14,Uncategorized,2020-10-17T00:00:00+00:00,55.51,49
+149,Lettuce - Treviso,14,Uncategorized,2020-08-21T00:00:00+00:00,56.29,92
+150,Tea - Lemon Green Tea,14,Uncategorized,2020-09-16T00:00:00+00:00,70.09,10
+151,Lettuce - Curly Endive,14,Uncategorized,2025-09-14T11:16:24.704709+00:00,60.41,27
+152,Vinegar - Balsamic,5,Stationary,2020-07-17T00:00:00+00:00,8.40,15
+153,Cheese - Brie Roitelet,5,Stationary,2021-06-07T00:00:00+00:00,80.45,69
+154,"Tomatoes - Diced, Canned",14,Uncategorized,2020-07-31T00:00:00+00:00,47.43,41
+155,Muffin Mix - Morning Glory,14,Uncategorized,2020-09-05T00:00:00+00:00,62.77,56
+156,"Yogurt - Cherry, 175 Gr",14,Uncategorized,2020-08-18T00:00:00+00:00,27.78,86
+157,Food Colouring - Green,14,Uncategorized,2020-09-25T00:00:00+00:00,69.86,29
+158,Eel Fresh,14,Uncategorized,2021-02-06T00:00:00+00:00,40.25,28
+159,"Lemonade - Strawberry, 591 Ml",14,Uncategorized,2020-10-02T00:00:00+00:00,7.04,7
+160,"Cod - Salted, Boneless",14,Uncategorized,2021-01-25T00:00:00+00:00,37.31,91
+161,"Jam - Strawberry, 20 Ml Jar",14,Uncategorized,2020-08-10T00:00:00+00:00,25.74,10
+162,"Veal - Inside Round / Top, Lean",14,Uncategorized,2021-05-19T00:00:00+00:00,72.51,85
+163,Lemonade - Pineapple Passion,14,Uncategorized,2021-04-23T00:00:00+00:00,14.67,8
+164,Peach - Fresh,14,Uncategorized,2021-06-08T00:00:00+00:00,74.71,51
+165,Garlic,14,Uncategorized,2021-01-18T00:00:00+00:00,85.06,64
+166,Artichoke - Fresh,14,Uncategorized,2020-09-27T00:00:00+00:00,70.35,100
+167,Sauce - Thousand Island,14,Uncategorized,2021-03-02T00:00:00+00:00,35.45,64
+168,"Sparkling Wine - Rose, Freixenet",14,Uncategorized,2020-11-28T00:00:00+00:00,73.38,45
+169,"Cheese - Cheddar, Medium",14,Uncategorized,2020-11-09T00:00:00+00:00,80.33,95
+170,Yeast Dry - Fleischman,7,Baking,2020-06-17T00:00:00+00:00,46.37,39
+171,Chips - Potato Jalapeno,5,Stationary,2021-03-07T00:00:00+00:00,30.96,9
+172,Shallots,14,Uncategorized,2021-02-25T00:00:00+00:00,84.84,87
+173,"Coke - Diet, 355 Ml",5,Stationary,2020-07-20T00:00:00+00:00,89.46,52
+174,Pernod,14,Uncategorized,2021-05-24T00:00:00+00:00,68.59,78
+175,Pate - Cognac,14,Uncategorized,2021-05-06T00:00:00+00:00,87.37,3
+176,Wine - Penfolds Koonuga Hill,5,Stationary,2020-08-03T00:00:00+00:00,43.99,34
+177,Shrimp - Tiger 21/25,14,Uncategorized,2020-07-23T00:00:00+00:00,59.91,4
+178,Watercress,14,Uncategorized,2021-04-14T00:00:00+00:00,25.40,94
+179,Flour - Chickpea,7,Baking,2021-05-25T00:00:00+00:00,11.58,20
+180,Tea Leaves - Oolong,14,Uncategorized,2021-03-14T00:00:00+00:00,9.86,92
+181,Wine - Hardys Bankside Shiraz,14,Uncategorized,2020-12-29T00:00:00+00:00,98.46,69
+182,Magnotta - Bel Paese White,14,Uncategorized,2021-04-24T00:00:00+00:00,87.08,65
+183,Beef - Montreal Smoked Brisket,14,Uncategorized,2021-02-25T00:00:00+00:00,65.66,68
+184,"Doilies - 7, Paper",5,Stationary,2021-05-09T00:00:00+00:00,6.42,9
+185,Venison - Striploin,5,Stationary,2021-02-20T00:00:00+00:00,85.15,88
+186,Turnip - Mini,14,Uncategorized,2021-02-06T00:00:00+00:00,80.88,67
+187,Peach - Halves,14,Uncategorized,2021-01-01T00:00:00+00:00,12.87,76
+188,Glaze - Clear,14,Uncategorized,2020-11-12T00:00:00+00:00,19.86,1
+189,"Wine - Red, Concha Y Toro",14,Uncategorized,2020-11-01T00:00:00+00:00,65.45,24
+190,Wine - Ej Gallo Sonoma,14,Uncategorized,2021-02-17T00:00:00+00:00,91.58,6
+191,Pickles - Gherkins,5,Stationary,2020-12-12T00:00:00+00:00,68.10,18
+192,Butter Sweet,14,Uncategorized,2020-10-04T00:00:00+00:00,39.80,72
+193,Onions - Red Pearl,14,Uncategorized,2021-05-31T00:00:00+00:00,35.52,51
+194,"Seedlings - Mix, Organic",14,Uncategorized,2020-11-29T00:00:00+00:00,6.23,51
+195,Bread - Calabrese Baguette,2,Grocery,2020-07-18T00:00:00+00:00,80.51,43
+196,Lamb - Loin Chops,14,Uncategorized,2020-08-07T00:00:00+00:00,94.45,2
+197,Peas Snow,14,Uncategorized,2021-06-07T00:00:00+00:00,18.05,93
+198,Blueberries,14,Uncategorized,2021-06-06T00:00:00+00:00,74.23,11
+199,Cookie - Dough Variety,7,Baking,2021-04-17T00:00:00+00:00,37.39,79
+200,Extract - Almond,14,Uncategorized,2025-09-16T19:10:30.987147+00:00,100.00,86
+201,Pastry - Banana Muffin - Mini,14,Uncategorized,2021-03-05T00:00:00+00:00,34.27,98
+202,Food Colouring - Orange,14,Uncategorized,2021-01-31T00:00:00+00:00,74.11,20
+203,"Split Peas - Green, Dry",14,Uncategorized,2020-08-02T00:00:00+00:00,2.51,77
+204,Lid Coffee Cup 8oz Blk,14,Uncategorized,2020-08-27T00:00:00+00:00,26.97,71
+205,Truffle Cups Green,14,Uncategorized,2021-01-20T00:00:00+00:00,88.95,38
+206,Cheese - Sheep Milk,2,Grocery,2020-11-21T00:00:00+00:00,64.43,87
+207,Oil - Shortening - All - Purpose,5,Stationary,2021-06-09T00:00:00+00:00,68.52,78
+208,"Pepper - Chillies, Crushed",8,Spices,2020-11-08T00:00:00+00:00,17.08,77
+209,Chicken - Whole Roasting,14,Uncategorized,2021-05-06T00:00:00+00:00,95.44,9
+210,Wiberg Cure,14,Uncategorized,2021-04-09T00:00:00+00:00,52.18,6
+211,Cleaner - Lime Away,4,Cleaning,2020-09-06T00:00:00+00:00,78.25,95
+212,Puree - Kiwi,14,Uncategorized,2020-09-11T00:00:00+00:00,49.93,80
+213,"Pineapple - Canned, Rings",14,Uncategorized,2020-07-19T00:00:00+00:00,19.07,23
+214,Turkey - Oven Roast Breast,14,Uncategorized,2021-03-31T00:00:00+00:00,85.71,10
+215,Hand Towel,5,Stationary,2020-09-25T00:00:00+00:00,36.16,54
+216,"Pork - Sausage, Medium",5,Stationary,2020-10-31T00:00:00+00:00,68.06,25
+217,Cheese Cloth No 100,14,Uncategorized,2020-12-31T00:00:00+00:00,11.95,52
+218,Sobe - Tropical Energy,5,Stationary,2021-04-07T00:00:00+00:00,24.26,34
+219,"Beef - Rib Roast, Capless",14,Uncategorized,2020-10-28T00:00:00+00:00,85.39,41
+220,"Beans - Turtle, Black, Dry",14,Uncategorized,2020-09-23T00:00:00+00:00,40.72,30
+221,Cookie - Oatmeal,7,Baking,2021-03-08T00:00:00+00:00,55.05,33
+222,Lettuce - Escarole,14,Uncategorized,2020-11-13T00:00:00+00:00,94.97,46
+223,Bread - Bistro White,5,Stationary,2021-04-14T00:00:00+00:00,36.65,30
+224,English Muffin,14,Uncategorized,2021-05-24T00:00:00+00:00,99.65,46
+225,Table Cloth 54x54 White,14,Uncategorized,2021-03-19T00:00:00+00:00,37.58,54
+226,"Melon - Watermelon, Seedless",14,Uncategorized,2021-05-15T00:00:00+00:00,57.44,26
+227,Dill Weed - Dry,14,Uncategorized,2020-10-26T00:00:00+00:00,99.51,40
+228,Pepper Squash,8,Spices,2021-02-14T00:00:00+00:00,11.07,45
+229,Flavouring - Orange,5,Stationary,2021-04-06T00:00:00+00:00,6.83,95
+230,Spice - Peppercorn Melange,8,Spices,2021-05-13T00:00:00+00:00,56.29,49
+231,Sprouts - Onion,14,Uncategorized,2021-01-14T00:00:00+00:00,5.68,67
+232,Wine - Magnotta - Cab Franc,14,Uncategorized,2020-11-21T00:00:00+00:00,52.31,50
+233,"Cup - 6oz, Foam",14,Uncategorized,2021-04-02T00:00:00+00:00,92.28,97
+234,Cake - Dulce De Leche,7,Baking,2021-02-01T00:00:00+00:00,6.62,54
+235,Greens Mustard,14,Uncategorized,2020-11-28T00:00:00+00:00,67.25,74
+236,Kiwano,14,Uncategorized,2020-10-22T00:00:00+00:00,27.60,13
+237,Carbonated Water - Wildberry,14,Uncategorized,2020-12-24T00:00:00+00:00,54.57,22
+238,Cheese - St. Paulin,14,Uncategorized,2020-08-11T00:00:00+00:00,23.35,98
+239,Wine - Jaboulet Cotes Du Rhone,14,Uncategorized,2020-07-13T00:00:00+00:00,14.43,48
+240,Pie Box - Cello Window 2.5,14,Uncategorized,2021-03-30T00:00:00+00:00,46.42,94
+241,Brandy - Bar,14,Uncategorized,2020-09-08T00:00:00+00:00,72.33,96
+242,Veal - Slab Bacon,14,Uncategorized,2020-11-07T00:00:00+00:00,74.61,69
+243,Duck - Whole,14,Uncategorized,2021-05-16T00:00:00+00:00,25.38,73
+244,Bagelers,14,Uncategorized,2020-08-28T00:00:00+00:00,57.79,92
+245,Pepper - Pablano,8,Spices,2021-04-19T00:00:00+00:00,62.55,71
+246,Mustard - Seed,14,Uncategorized,2021-02-08T00:00:00+00:00,88.31,65
+247,Strawberries,14,Uncategorized,2020-11-12T00:00:00+00:00,43.48,97
+248,Cup - Translucent 7 Oz Clear,14,Uncategorized,2021-02-11T00:00:00+00:00,54.28,78
+249,Jameson Irish Whiskey,14,Uncategorized,2021-02-17T00:00:00+00:00,52.91,54
+250,Beef - Eye Of Round,14,Uncategorized,2020-10-22T00:00:00+00:00,48.84,7
+251,The Pop Shoppe - Grape,14,Uncategorized,2021-04-01T00:00:00+00:00,18.35,5
+252,"Cheese - Cheddar, Medium",14,Uncategorized,2020-06-10T00:00:00+00:00,92.34,85
+253,Tomatoes Tear Drop Yellow,5,Stationary,2021-02-08T00:00:00+00:00,10.60,0
+254,Extract Vanilla Pure,14,Uncategorized,2021-01-22T00:00:00+00:00,10.05,87
+255,"Ham - Smoked, Bone - In",14,Uncategorized,2020-12-29T00:00:00+00:00,83.75,93
+256,Burger Veggie,13,Vegitables,2020-10-09T00:00:00+00:00,53.73,44
+257,Appetizer - Sausage Rolls,6,Pets,2021-01-14T00:00:00+00:00,96.43,0
+258,Wine - Magnotta - Pinot Gris Sr,14,Uncategorized,2021-02-17T00:00:00+00:00,26.42,2
+259,Melon - Watermelon Yellow,14,Uncategorized,2021-04-09T00:00:00+00:00,60.34,15
+260,"Cheese - Brie, Triple Creme",14,Uncategorized,2021-05-25T00:00:00+00:00,17.75,88
+261,Table Cloth 54x72 White,14,Uncategorized,2020-07-07T00:00:00+00:00,44.88,48
+262,Chocolate Bar - Oh Henry,14,Uncategorized,2020-07-16T00:00:00+00:00,67.60,99
+263,Cheese - Camembert,14,Uncategorized,2021-01-20T00:00:00+00:00,23.20,27
+264,"Soup - Campbells, Spinach Crm",14,Uncategorized,2021-05-13T00:00:00+00:00,31.98,100
+265,Tea - Herbal Orange Spice,8,Spices,2021-03-03T00:00:00+00:00,80.89,86
+266,Berry Brulee,14,Uncategorized,2021-05-21T00:00:00+00:00,37.42,5
+267,Bar - Sweet And Salty Chocolate,14,Uncategorized,2020-12-21T00:00:00+00:00,22.84,26
+268,Gherkin,5,Stationary,2021-04-16T00:00:00+00:00,57.02,86
+269,Lady Fingers,14,Uncategorized,2020-08-07T00:00:00+00:00,75.55,59
+270,Beer - Upper Canada Light,14,Uncategorized,2020-12-07T00:00:00+00:00,40.14,56
+271,Cocoa Powder - Dutched,14,Uncategorized,2021-05-01T00:00:00+00:00,13.36,84
+272,Spice - Montreal Steak Spice,8,Spices,2020-11-29T00:00:00+00:00,45.15,81
+273,Jicama,14,Uncategorized,2021-03-29T00:00:00+00:00,47.77,92
+274,Bar Mix - Lime,14,Uncategorized,2020-10-10T00:00:00+00:00,49.72,80
+275,Macaroons - Two Bite Choc,14,Uncategorized,2021-05-23T00:00:00+00:00,80.59,50
+276,Bandage - Fexible 1x3,14,Uncategorized,2021-05-15T00:00:00+00:00,63.84,93
+277,V8 - Tropical Blend,14,Uncategorized,2020-12-29T00:00:00+00:00,87.59,70
+278,Yoplait Drink,14,Uncategorized,2020-08-03T00:00:00+00:00,59.28,16
+279,Sugar - Invert,7,Baking,2020-06-28T00:00:00+00:00,69.37,87
+280,"Doilies - 10, Paper",5,Stationary,2021-05-08T00:00:00+00:00,99.19,24
+281,"Shrimp, Dried, Small / Lb",14,Uncategorized,2020-08-29T00:00:00+00:00,24.32,34
+282,Vinegar - Tarragon,14,Uncategorized,2021-05-17T00:00:00+00:00,16.87,63
+283,Cheese - La Sauvagine,14,Uncategorized,2021-01-31T00:00:00+00:00,82.33,81
+284,Yucca,14,Uncategorized,2020-10-19T00:00:00+00:00,14.26,67
+285,Beef - Shank,14,Uncategorized,2020-11-03T00:00:00+00:00,18.74,25
+286,Potatoes - Mini White 3 Oz,14,Uncategorized,2020-12-24T00:00:00+00:00,4.00,13
+287,"Cup - 6oz, Foam",5,Stationary,2021-01-11T00:00:00+00:00,2.83,38
+288,Allspice - Jamaican,8,Spices,2021-04-05T00:00:00+00:00,46.53,71
+289,Spice - Peppercorn Melange,8,Spices,2021-02-24T00:00:00+00:00,32.25,8
+290,Ham Black Forest,14,Uncategorized,2020-12-13T00:00:00+00:00,2.97,68
+291,Chocolate - Chips Compound,2,Grocery,2020-08-11T00:00:00+00:00,10.59,95
+292,Lamb - Shanks,14,Uncategorized,2021-05-30T00:00:00+00:00,85.78,91
+293,Wine - Chianti Classico Riserva,5,Stationary,2021-01-20T00:00:00+00:00,42.08,82
+294,"Coffee - Colombian, Portioned",14,Uncategorized,2020-08-15T00:00:00+00:00,5.99,48
+295,"Pasta - Fettuccine, Egg, Fresh",14,Uncategorized,2020-06-12T00:00:00+00:00,12.85,16
+296,Tequila Rose Cream Liquor,14,Uncategorized,2020-12-03T00:00:00+00:00,94.35,28
+297,Eggwhite Frozen,14,Uncategorized,2021-02-24T00:00:00+00:00,64.40,80
+298,Pate - Liver,14,Uncategorized,2021-03-26T00:00:00+00:00,87.14,86
+299,Thyme - Fresh,14,Uncategorized,2020-10-30T00:00:00+00:00,13.95,80
+300,Ice Cream - Strawberry,14,Uncategorized,2020-11-13T00:00:00+00:00,78.47,75
+301,Steampan - Lid For Half Size,14,Uncategorized,2020-07-30T00:00:00+00:00,29.54,95
+302,Oats Large Flake,5,Stationary,2020-08-02T00:00:00+00:00,99.60,100
+303,Mcguinness - Blue Curacao,14,Uncategorized,2020-08-22T00:00:00+00:00,30.76,42
+304,Sauce - Salsa,14,Uncategorized,2020-12-09T00:00:00+00:00,82.29,24
+305,Frangelico,14,Uncategorized,2021-04-12T00:00:00+00:00,8.45,20
+306,Wine - Blue Nun Qualitatswein,14,Uncategorized,2020-07-17T00:00:00+00:00,67.43,65
+307,Bread - Calabrese Baguette,2,Grocery,2020-11-04T00:00:00+00:00,40.96,5
+308,Soup - Campbells,14,Uncategorized,2021-05-08T00:00:00+00:00,70.29,81
+309,"Doilies - 8, Paper",5,Stationary,2021-04-30T00:00:00+00:00,49.70,80
+310,Taro Leaves,14,Uncategorized,2020-12-12T00:00:00+00:00,64.75,87
+311,Tumeric,14,Uncategorized,2020-07-25T00:00:00+00:00,17.35,70
+312,"Coconut - Creamed, Pure",14,Uncategorized,2021-03-02T00:00:00+00:00,52.81,80
+313,Bread - Olive Dinner Roll,2,Grocery,2021-02-12T00:00:00+00:00,88.96,61
+314,Wine - Fat Bastard Merlot,14,Uncategorized,2020-12-04T00:00:00+00:00,73.55,14
+315,Beef - Tenderloin,14,Uncategorized,2020-08-02T00:00:00+00:00,52.03,10
+316,Bread - White Epi Baguette,2,Grocery,2021-05-03T00:00:00+00:00,2.21,48
+317,"Soup - Campbells, Creamy",14,Uncategorized,2020-10-20T00:00:00+00:00,14.16,67
+318,Dasheen,14,Uncategorized,2021-02-18T00:00:00+00:00,33.04,88
+319,Towel - Roll White,2,Grocery,2021-01-30T00:00:00+00:00,36.51,11
+320,Juice - Orange 1.89l,14,Uncategorized,2021-02-12T00:00:00+00:00,85.16,7
+321,"Vermouth - White, Cinzano",14,Uncategorized,2020-09-13T00:00:00+00:00,46.15,35
+322,Bread - French Baquette,2,Grocery,2020-08-24T00:00:00+00:00,30.31,38
+323,Chinese Foods - Plain Fried Rice,14,Uncategorized,2021-02-07T00:00:00+00:00,24.39,6
+324,Sausage - Chorizo,5,Stationary,2021-03-31T00:00:00+00:00,72.17,62
+325,Lotus Root,14,Uncategorized,2021-03-12T00:00:00+00:00,16.48,55
+326,Ecolab - Solid Fusion,14,Uncategorized,2021-03-17T00:00:00+00:00,78.05,98
+327,"Chicken - Thigh, Bone In",14,Uncategorized,2020-08-15T00:00:00+00:00,61.95,100
+328,Pepper - Red Chili,8,Spices,2020-09-12T00:00:00+00:00,5.21,96
+329,"Soup - Beef, Base Mix",14,Uncategorized,2020-10-20T00:00:00+00:00,41.99,89
+330,Wine - Magnotta - Cab Franc,14,Uncategorized,2021-05-16T00:00:00+00:00,13.21,43
+331,Red Currant Jelly,14,Uncategorized,2020-07-08T00:00:00+00:00,44.53,95
+332,"Soup - Knorr, Country Bean",14,Uncategorized,2021-02-20T00:00:00+00:00,75.74,54
+333,Cafe Royale,14,Uncategorized,2021-01-27T00:00:00+00:00,77.72,73
+334,Napkin White,14,Uncategorized,2021-05-24T00:00:00+00:00,41.16,75
+335,Cheese - Provolone,14,Uncategorized,2021-02-04T00:00:00+00:00,54.32,19
+336,"Vermacelli - Sprinkles, Assorted",14,Uncategorized,2020-06-10T00:00:00+00:00,33.79,46
+337,Creme De Cacao White,14,Uncategorized,2020-10-29T00:00:00+00:00,30.59,29
+338,Mushroom - Lg - Cello,14,Uncategorized,2021-05-23T00:00:00+00:00,29.11,29
+339,Assorted Desserts,14,Uncategorized,2020-06-23T00:00:00+00:00,16.77,97
+340,Pork - Suckling Pig,5,Stationary,2021-02-17T00:00:00+00:00,76.52,73
+341,Wine - Hardys Bankside Shiraz,5,Stationary,2020-10-04T00:00:00+00:00,65.85,72
+342,"Tart Shells - Savory, 3",14,Uncategorized,2020-08-26T00:00:00+00:00,64.88,44
+343,Cheese - Gouda,5,Stationary,2021-03-11T00:00:00+00:00,98.07,44
+344,Beef - Tenderloin - Aa,14,Uncategorized,2020-11-28T00:00:00+00:00,36.69,9
+345,"Pork - Ham, Virginia",14,Uncategorized,2021-03-01T00:00:00+00:00,58.53,79
+346,Lid Tray - 16in Dome,14,Uncategorized,2021-01-29T00:00:00+00:00,30.96,32
+347,Beer - Corona,14,Uncategorized,2020-06-14T00:00:00+00:00,93.68,84
+348,Milkettes - 2%,2,Grocery,2020-09-23T00:00:00+00:00,86.05,64
+349,Five Alive Citrus,14,Uncategorized,2021-05-12T00:00:00+00:00,27.86,59
+350,"Pasta - Canelloni, Single Serve",14,Uncategorized,2020-08-27T00:00:00+00:00,20.21,19
+351,Juice - Cranberry 284ml,14,Uncategorized,2021-05-11T00:00:00+00:00,13.05,56
+352,Wine - Vineland Estate Semi - Dry,14,Uncategorized,2021-05-18T00:00:00+00:00,33.35,71
+353,Syrup - Monin - Passion Fruit,14,Uncategorized,2020-09-25T00:00:00+00:00,64.58,56
+354,"Marsala - Sperone, Fine, D.o.c.",14,Uncategorized,2021-04-09T00:00:00+00:00,71.21,80
+355,Bowl 12 Oz - Showcase 92012,5,Stationary,2020-07-20T00:00:00+00:00,7.67,33
+356,"Cod - Salted, Boneless",14,Uncategorized,2020-07-28T00:00:00+00:00,26.71,12
+357,"Lemonade - Kiwi, 591 Ml",14,Uncategorized,2020-10-11T00:00:00+00:00,43.40,41
+358,Yeast Dry - Fleischman,7,Baking,2020-08-19T00:00:00+00:00,44.77,32
+359,Beef - Striploin,14,Uncategorized,2021-05-13T00:00:00+00:00,77.01,95
+360,Plate Pie Foil,14,Uncategorized,2020-08-05T00:00:00+00:00,6.97,84
+361,Madeira,14,Uncategorized,2020-11-30T00:00:00+00:00,28.66,89
+362,Broccoli - Fresh,14,Uncategorized,2020-11-20T00:00:00+00:00,84.58,93
+363,Wine - Rubyport,14,Uncategorized,2020-08-10T00:00:00+00:00,98.70,92
+364,Bread Base - Italian,2,Grocery,2021-06-03T00:00:00+00:00,19.74,28
+365,"Flour - Corn, Fine",7,Baking,2021-04-02T00:00:00+00:00,32.55,68
+366,Bread Cranberry Foccacia,2,Grocery,2020-10-24T00:00:00+00:00,95.08,76
+367,Lettuce - Boston Bib - Organic,5,Stationary,2021-03-17T00:00:00+00:00,41.65,31
+368,"Beef - Tenderlion, Center Cut",5,Stationary,2020-09-08T00:00:00+00:00,3.45,36
+369,Squeeze Bottle,14,Uncategorized,2020-12-27T00:00:00+00:00,75.90,17
+370,Muffin - Zero Transfat,14,Uncategorized,2020-07-21T00:00:00+00:00,15.91,65
+371,Worcestershire Sauce,5,Stationary,2020-12-06T00:00:00+00:00,45.93,61
+372,Lid Coffee Cup 8oz Blk,14,Uncategorized,2021-02-18T00:00:00+00:00,52.14,21
+373,Yoplait Drink,14,Uncategorized,2021-04-18T00:00:00+00:00,20.55,67
+374,Sausage - Liver,14,Uncategorized,2020-10-20T00:00:00+00:00,58.67,39
+375,Snapple Lemon Tea,14,Uncategorized,2020-11-02T00:00:00+00:00,42.45,43
+376,"Salmon - Atlantic, No Skin",5,Stationary,2020-10-31T00:00:00+00:00,38.85,15
+377,Black Currants,14,Uncategorized,2020-09-21T00:00:00+00:00,76.68,63
+378,Food Colouring - Red,14,Uncategorized,2020-08-17T00:00:00+00:00,52.70,87
+379,Chocolate - White,14,Uncategorized,2021-04-02T00:00:00+00:00,1.92,69
+380,Calaloo,14,Uncategorized,2020-08-03T00:00:00+00:00,8.55,76
+381,Cherries - Fresh,14,Uncategorized,2020-09-04T00:00:00+00:00,31.41,45
+382,Muffin Orange Individual,14,Uncategorized,2020-07-09T00:00:00+00:00,54.18,13
+383,Soup - French Can Pea,14,Uncategorized,2021-04-17T00:00:00+00:00,76.57,85
+384,Nectarines,14,Uncategorized,2020-10-26T00:00:00+00:00,11.16,30
+385,"Shrimp - 21/25, Peel And Deviened",14,Uncategorized,2020-11-14T00:00:00+00:00,68.55,65
+386,"Salmon - Smoked, Sliced",5,Stationary,2021-03-27T00:00:00+00:00,50.50,100
+387,Quail - Jumbo Boneless,14,Uncategorized,2020-08-19T00:00:00+00:00,20.37,97
+388,"Water - Spring Water, 355 Ml",14,Uncategorized,2021-02-04T00:00:00+00:00,11.69,75
+389,Pastry - Choclate Baked,14,Uncategorized,2020-12-27T00:00:00+00:00,70.65,11
+390,Banana Turning,14,Uncategorized,2020-12-24T00:00:00+00:00,17.12,36
+391,Flavouring Vanilla Artificial,5,Stationary,2021-01-21T00:00:00+00:00,9.47,59
+392,Lotus Rootlets - Canned,14,Uncategorized,2021-05-06T00:00:00+00:00,72.76,8
+393,Filter - Coffee,14,Uncategorized,2021-04-10T00:00:00+00:00,85.17,51
+394,Appetizer - Smoked Salmon / Dill,6,Pets,2020-11-08T00:00:00+00:00,32.16,11
+395,Macaroons - Two Bite Choc,5,Stationary,2020-08-08T00:00:00+00:00,68.07,19
+396,Lamb - Bones,14,Uncategorized,2021-05-13T00:00:00+00:00,36.67,24
+397,Mousse - Mango,14,Uncategorized,2020-08-03T00:00:00+00:00,84.22,91
+398,Truffle Shells - Semi - Sweet,14,Uncategorized,2020-08-17T00:00:00+00:00,72.09,19
+399,"Pork - Tenderloin, Frozen",14,Uncategorized,2020-10-29T00:00:00+00:00,52.90,8
+400,"Chilli Paste, Ginger Garlic",14,Uncategorized,2021-03-12T00:00:00+00:00,50.47,3
+401,Creme De Menth - White,14,Uncategorized,2021-01-05T00:00:00+00:00,23.97,49
+402,Thyme - Dried,14,Uncategorized,2020-11-26T00:00:00+00:00,85.99,96
+403,"Pasta - Lasagna, Dry",14,Uncategorized,2020-11-12T00:00:00+00:00,37.80,49
+404,Eggplant Italian,14,Uncategorized,2021-05-13T00:00:00+00:00,80.68,52
+405,V8 - Vegetable Cocktail,13,Vegitables,2021-04-16T00:00:00+00:00,26.62,14
+406,Tray - 16in Rnd Blk,14,Uncategorized,2021-04-09T00:00:00+00:00,20.69,46
+407,Juice Peach Nectar,14,Uncategorized,2020-11-07T00:00:00+00:00,47.08,11
+408,"Shrimp - Baby, Warm Water",14,Uncategorized,2021-04-10T00:00:00+00:00,21.07,14
+409,Chicken - Whole Fryers,14,Uncategorized,2020-09-25T00:00:00+00:00,60.39,59
+410,Gatorade - Orange,14,Uncategorized,2020-11-18T00:00:00+00:00,98.40,58
+411,Fib N9 - Prague Powder,14,Uncategorized,2020-11-21T00:00:00+00:00,53.53,91
+412,"Mushroom - Enoki, Fresh",14,Uncategorized,2021-03-23T00:00:00+00:00,39.73,44
+413,Sauce - Hp,5,Stationary,2021-01-23T00:00:00+00:00,57.26,35
+414,Beer - Paulaner Hefeweisse,14,Uncategorized,2020-12-15T00:00:00+00:00,95.30,68
+415,"Nut - Pecan, Halves",14,Uncategorized,2021-05-16T00:00:00+00:00,81.11,48
+416,Vodka - Smirnoff,14,Uncategorized,2020-08-07T00:00:00+00:00,24.05,62
+417,Wine - Port Late Bottled Vintage,14,Uncategorized,2021-04-25T00:00:00+00:00,27.91,95
+418,Kiwi Gold Zespri,14,Uncategorized,2020-12-31T00:00:00+00:00,28.83,92
+419,Soup - Chicken And Wild Rice,14,Uncategorized,2020-12-04T00:00:00+00:00,74.76,96
+420,Cream Of Tartar,5,Stationary,2021-02-15T00:00:00+00:00,4.22,42
+421,Pasta - Cheese / Spinach Bauletti,5,Stationary,2020-10-23T00:00:00+00:00,81.91,12
+422,Yucca,14,Uncategorized,2020-09-13T00:00:00+00:00,7.39,34
+423,Zucchini - Yellow,14,Uncategorized,2020-07-31T00:00:00+00:00,55.25,83
+424,Transfer Sheets,14,Uncategorized,2021-01-26T00:00:00+00:00,91.43,95
+425,"Beef - Cooked, Corned",14,Uncategorized,2021-01-02T00:00:00+00:00,24.65,65
+426,Bar Bran Honey Nut,14,Uncategorized,2021-04-14T00:00:00+00:00,68.49,30
+427,"Quail - Whole, Bone - In",14,Uncategorized,2021-01-11T00:00:00+00:00,41.85,30
+428,"Pepper - Julienne, Frozen",8,Spices,2021-05-14T00:00:00+00:00,22.56,65
+429,Radish - Pickled,5,Stationary,2020-12-09T00:00:00+00:00,91.52,79
+430,Chocolate Eclairs,14,Uncategorized,2021-05-11T00:00:00+00:00,75.55,30
+431,Godiva White Chocolate,14,Uncategorized,2020-09-08T00:00:00+00:00,36.17,73
+432,"Sauce - Soya, Light",14,Uncategorized,2021-04-24T00:00:00+00:00,81.10,48
+433,Sherry - Dry,5,Stationary,2020-12-18T00:00:00+00:00,78.54,9
+434,Potatoes - Peeled,14,Uncategorized,2021-02-02T00:00:00+00:00,82.59,76
+435,Wine - Two Oceans Cabernet,14,Uncategorized,2020-10-16T00:00:00+00:00,33.55,86
+436,Appetizer - Southwestern,6,Pets,2021-04-27T00:00:00+00:00,38.94,77
+437,Wine - Penfolds Koonuga Hill,5,Stationary,2021-01-22T00:00:00+00:00,50.05,11
+438,Appetizer - Shrimp Puff,6,Pets,2020-12-04T00:00:00+00:00,65.45,30
+439,Isomalt,5,Stationary,2020-09-06T00:00:00+00:00,33.57,93
+440,Beans - Soya Bean,14,Uncategorized,2021-05-20T00:00:00+00:00,88.40,29
+441,Beef - Shank,14,Uncategorized,2020-10-19T00:00:00+00:00,58.80,99
+442,Oil - Shortening - All - Purpose,14,Uncategorized,2021-01-27T00:00:00+00:00,15.47,51
+443,Pepper - Chilli Seeds Mild,8,Spices,2020-10-03T00:00:00+00:00,39.69,35
+444,"Pasta - Fusili, Dry",14,Uncategorized,2020-11-17T00:00:00+00:00,17.95,19
+445,Flower - Leather Leaf Fern,1,Flowers,2021-01-24T00:00:00+00:00,69.96,83
+446,Black Currants,5,Stationary,2020-07-28T00:00:00+00:00,8.73,8
+447,Sword Pick Asst,14,Uncategorized,2021-01-21T00:00:00+00:00,32.29,16
+448,"Soup - Campbells, Lentil",5,Stationary,2021-01-27T00:00:00+00:00,48.58,76
+449,"Roe - Lump Fish, Red",6,Pets,2021-04-04T00:00:00+00:00,84.19,65
+450,Sauce - Demi Glace,14,Uncategorized,2020-09-09T00:00:00+00:00,81.03,90
+451,Coffee Cup 8oz 5338cd,14,Uncategorized,2021-02-15T00:00:00+00:00,73.11,71
+452,"Salmon - Smoked, Sliced",14,Uncategorized,2020-10-09T00:00:00+00:00,30.55,11
+453,Veal - Osso Bucco,14,Uncategorized,2020-10-31T00:00:00+00:00,93.75,23
+454,"Sole - Dover, Whole, Fresh",14,Uncategorized,2021-06-05T00:00:00+00:00,14.14,29
+455,Vaccum Bag - 14x20,14,Uncategorized,2021-03-26T00:00:00+00:00,56.18,92
+456,Sausage - Liver,14,Uncategorized,2020-08-01T00:00:00+00:00,87.44,25
+457,"Wine - Magnotta, White",14,Uncategorized,2021-01-30T00:00:00+00:00,96.03,34
+458,Ham - Virginia,14,Uncategorized,2021-04-08T00:00:00+00:00,93.87,87
+459,Onion - Dried,14,Uncategorized,2020-09-24T00:00:00+00:00,5.80,5
+460,Coffee - Decafenated,14,Uncategorized,2020-09-29T00:00:00+00:00,35.38,32
+461,Sauce - Plum,14,Uncategorized,2020-07-03T00:00:00+00:00,8.77,35
+462,"Yogurt - Raspberry, 175 Gr",14,Uncategorized,2020-12-08T00:00:00+00:00,74.58,100
+463,Orange - Tangerine,14,Uncategorized,2020-06-19T00:00:00+00:00,91.78,85
+464,Chicken - Soup Base,14,Uncategorized,2020-08-20T00:00:00+00:00,11.88,55
+465,Ecolab - Lime - A - Way 4/4 L,14,Uncategorized,2021-05-27T00:00:00+00:00,88.85,93
+466,Cheese - Parmigiano Reggiano,14,Uncategorized,2020-08-17T00:00:00+00:00,77.72,82
+467,"Beef - Chuck, Boneless",14,Uncategorized,2020-10-21T00:00:00+00:00,85.88,22
+468,Raisin - Golden,14,Uncategorized,2020-12-04T00:00:00+00:00,94.29,51
+469,Molasses - Fancy,14,Uncategorized,2021-02-25T00:00:00+00:00,1.13,8
+470,Pork - Ground,14,Uncategorized,2020-07-19T00:00:00+00:00,96.62,34
+471,"Bread - White, Unsliced",2,Grocery,2021-01-17T00:00:00+00:00,83.52,51
+472,Versatainer Nc - 8288,14,Uncategorized,2020-07-13T00:00:00+00:00,23.04,81
+473,Lambcasing,14,Uncategorized,2020-06-16T00:00:00+00:00,78.97,70
+474,Beef - Ox Tongue,14,Uncategorized,2020-11-05T00:00:00+00:00,27.92,79
+475,"Pepper - Green, Chili",8,Spices,2021-01-13T00:00:00+00:00,95.20,61
+476,Beer - Tetleys,14,Uncategorized,2020-12-14T00:00:00+00:00,34.41,16
+477,"Yogurt - Cherry, 175 Gr",14,Uncategorized,2020-08-05T00:00:00+00:00,52.89,80
+478,Sole - Fillet,14,Uncategorized,2021-04-26T00:00:00+00:00,28.28,35
+479,"Turnip - White, Organic",14,Uncategorized,2021-02-09T00:00:00+00:00,50.07,25
+480,Dip - Tapenade,5,Stationary,2020-08-11T00:00:00+00:00,45.11,41
+481,Coffee - 10oz Cup 92961,14,Uncategorized,2021-05-01T00:00:00+00:00,21.42,93
+482,"Pasta - Elbows, Macaroni, Dry",14,Uncategorized,2021-04-08T00:00:00+00:00,37.30,87
+483,"Wine - White, Colubia Cresh",14,Uncategorized,2020-06-24T00:00:00+00:00,1.59,42
+484,"Soup - Beef Conomme, Dry",14,Uncategorized,2021-01-05T00:00:00+00:00,92.54,75
+485,Soup - Campbells Mushroom,14,Uncategorized,2020-09-27T00:00:00+00:00,32.67,17
+486,Potatoes - Mini Red,14,Uncategorized,2021-03-14T00:00:00+00:00,57.24,21
+487,"Cheese - Havarti, Salsa",14,Uncategorized,2020-12-06T00:00:00+00:00,31.03,75
+488,"Shrimp - 21/25, Peel And Deviened",14,Uncategorized,2020-07-09T00:00:00+00:00,83.12,20
+489,Propel Sport Drink,14,Uncategorized,2020-08-03T00:00:00+00:00,50.37,18
+490,Chicken - White Meat With Tender,14,Uncategorized,2020-12-23T00:00:00+00:00,39.47,64
+491,Guinea Fowl,14,Uncategorized,2020-11-04T00:00:00+00:00,84.54,43
+492,Bowl 12 Oz - Showcase 92012,14,Uncategorized,2021-02-04T00:00:00+00:00,29.71,13
+493,Yeast Dry - Fermipan,7,Baking,2021-05-11T00:00:00+00:00,10.79,86
+494,"Mushroom - Chantrelle, Fresh",5,Stationary,2020-09-12T00:00:00+00:00,23.61,39
+495,Beer - Steamwhistle,14,Uncategorized,2021-03-12T00:00:00+00:00,7.39,82
+496,Lettuce - Belgian Endive,5,Stationary,2020-09-30T00:00:00+00:00,40.96,59
+497,Jello - Assorted,14,Uncategorized,2021-02-22T00:00:00+00:00,13.53,97
+498,Garlic Powder,14,Uncategorized,2020-08-27T00:00:00+00:00,2.19,3
+499,Pickle - Dill,5,Stationary,2020-09-20T00:00:00+00:00,31.52,77
+500,Flour Dark Rye,7,Baking,2020-10-22T00:00:00+00:00,37.41,75
+501,Compound - Pear,5,Stationary,2021-06-07T00:00:00+00:00,93.42,51
+502,Cookie Chocolate Chip With,7,Baking,2020-07-25T00:00:00+00:00,66.30,29
+503,Cloves - Ground,14,Uncategorized,2020-11-08T00:00:00+00:00,26.06,15
+504,Sauce - Thousand Island,14,Uncategorized,2020-09-27T00:00:00+00:00,60.11,46
+505,Yogurt - Assorted Pack,5,Stationary,2020-07-25T00:00:00+00:00,12.44,67
+506,Dooleys Toffee,14,Uncategorized,2021-05-26T00:00:00+00:00,71.19,52
+507,Marzipan 50/50,14,Uncategorized,2021-03-25T00:00:00+00:00,89.05,58
+508,Flavouring - Raspberry,5,Stationary,2021-02-28T00:00:00+00:00,72.89,40
+509,Lamb - Bones,14,Uncategorized,2021-04-09T00:00:00+00:00,1.44,80
+510,"Pineapple - Canned, Rings",14,Uncategorized,2021-04-04T00:00:00+00:00,14.96,77
+511,Chicken - Whole Roasting,14,Uncategorized,2021-02-10T00:00:00+00:00,54.87,44
+512,Scallops - U - 10,14,Uncategorized,2021-04-25T00:00:00+00:00,88.21,100
+513,Container - Clear 32 Oz,14,Uncategorized,2021-03-04T00:00:00+00:00,5.78,30
+514,Juice - Orange 1.89l,14,Uncategorized,2020-10-04T00:00:00+00:00,54.45,65
+515,"Sparkling Wine - Rose, Freixenet",14,Uncategorized,2020-12-24T00:00:00+00:00,95.18,44
+516,Sultanas,14,Uncategorized,2020-08-27T00:00:00+00:00,48.75,64
+517,Pasta - Cheese / Spinach Bauletti,14,Uncategorized,2021-03-28T00:00:00+00:00,93.85,21
+518,Tart - Pecan Butter Squares,14,Uncategorized,2021-04-23T00:00:00+00:00,4.75,43
+519,Tarts Assorted,14,Uncategorized,2021-04-21T00:00:00+00:00,68.34,87
+520,Appetizer - Asian Shrimp Roll,6,Pets,2021-03-15T00:00:00+00:00,92.58,47
+521,Pork - Smoked Back Bacon,14,Uncategorized,2021-05-13T00:00:00+00:00,14.00,1
+522,Vodka - Smirnoff,14,Uncategorized,2020-09-15T00:00:00+00:00,66.15,38
+523,Cake - Miini Cheesecake Cherry,7,Baking,2020-11-19T00:00:00+00:00,57.35,37
+524,Tia Maria,14,Uncategorized,2021-01-29T00:00:00+00:00,57.76,82
+525,Banana Turning,14,Uncategorized,2020-07-10T00:00:00+00:00,90.39,64
+526,Rice - Brown,14,Uncategorized,2020-10-04T00:00:00+00:00,57.03,54
+527,Potatoes - Fingerling 4 Oz,14,Uncategorized,2021-02-07T00:00:00+00:00,32.99,89
+528,Shrimp - Tiger 21/25,14,Uncategorized,2021-03-27T00:00:00+00:00,79.68,71
+529,Lamb - Shanks,14,Uncategorized,2020-07-01T00:00:00+00:00,17.39,29
+530,"Wine - Red, Cabernet Merlot",14,Uncategorized,2020-12-11T00:00:00+00:00,89.73,57
+531,Bread - Sour Batard,2,Grocery,2021-05-04T00:00:00+00:00,57.33,6
+532,Ginger - Crystalized,14,Uncategorized,2020-08-25T00:00:00+00:00,8.17,88
+533,Eggplant - Asian,14,Uncategorized,2020-12-26T00:00:00+00:00,50.50,69
+534,Wine - Malbec Trapiche Reserve,14,Uncategorized,2020-11-10T00:00:00+00:00,90.41,61
+535,Coffee Cup 16oz Foam,5,Stationary,2021-02-04T00:00:00+00:00,2.94,82
+536,Coconut Milk - Unsweetened,2,Grocery,2020-11-09T00:00:00+00:00,66.22,90
+537,Squid Ink,5,Stationary,2020-06-20T00:00:00+00:00,32.21,65
+538,Wine - Bouchard La Vignee Pinot,14,Uncategorized,2020-06-24T00:00:00+00:00,90.55,70
+539,Guinea Fowl,14,Uncategorized,2020-08-02T00:00:00+00:00,4.85,97
+540,Remy Red,14,Uncategorized,2021-04-05T00:00:00+00:00,67.10,41
+541,Cookie Dough - Chocolate Chip,7,Baking,2020-09-09T00:00:00+00:00,16.48,11
+542,Fennel,14,Uncategorized,2021-01-15T00:00:00+00:00,2.73,15
+543,Nacho Chips,2,Grocery,2021-04-09T00:00:00+00:00,57.42,97
+544,Sugar - Invert,7,Baking,2020-12-25T00:00:00+00:00,23.54,77
+545,Tarts Assorted,14,Uncategorized,2020-11-02T00:00:00+00:00,79.79,51
+546,Mushroom Morel Fresh,14,Uncategorized,2020-10-21T00:00:00+00:00,27.00,52
+547,Hersey Shakes,14,Uncategorized,2020-12-19T00:00:00+00:00,47.61,23
+548,Tomatoes - Heirloom,14,Uncategorized,2021-01-14T00:00:00+00:00,74.60,84
+549,Tea - Herbal Orange Spice,8,Spices,2021-04-13T00:00:00+00:00,68.15,1
+550,Pork - Bacon Cooked Slcd,14,Uncategorized,2020-09-04T00:00:00+00:00,2.24,94
+551,Mint - Fresh,14,Uncategorized,2020-10-01T00:00:00+00:00,84.18,45
+552,Bread - Bistro Sour,2,Grocery,2021-01-13T00:00:00+00:00,99.35,69
+553,"Wine - Magnotta - Red, Baco",14,Uncategorized,2021-02-14T00:00:00+00:00,27.60,71
+554,"Chicken - Leg, Fresh",14,Uncategorized,2021-06-02T00:00:00+00:00,11.50,2
+555,"Soup - French Onion, Dry",14,Uncategorized,2021-01-24T00:00:00+00:00,66.46,37
+556,Sachet,14,Uncategorized,2021-03-21T00:00:00+00:00,74.35,81
+557,"Carrots - Purple, Organic",14,Uncategorized,2021-06-02T00:00:00+00:00,12.34,48
+558,"Yogurt - Raspberry, 175 Gr",14,Uncategorized,2021-05-07T00:00:00+00:00,73.13,32
+559,Chocolate - Chips Compound,2,Grocery,2020-11-17T00:00:00+00:00,91.36,13
+560,Sponge Cake Mix - Chocolate,7,Baking,2020-07-28T00:00:00+00:00,77.66,75
+561,Flower - Potmums,1,Flowers,2020-09-22T00:00:00+00:00,62.42,82
+562,Glass Clear 7 Oz Xl,14,Uncategorized,2020-11-03T00:00:00+00:00,97.10,97
+563,Flour - Strong Pizza,7,Baking,2020-08-01T00:00:00+00:00,2.22,15
+564,Glass Clear 7 Oz Xl,14,Uncategorized,2020-09-28T00:00:00+00:00,45.75,85
+565,Taro Leaves,14,Uncategorized,2020-12-01T00:00:00+00:00,56.91,58
+566,Bread Bowl Plain,2,Grocery,2021-04-04T00:00:00+00:00,11.53,77
+567,Cheese - Cambozola,5,Stationary,2020-07-02T00:00:00+00:00,52.08,44
+568,Lettuce - Spring Mix,14,Uncategorized,2020-08-29T00:00:00+00:00,14.24,50
+569,"Crab - Claws, 26 - 30",14,Uncategorized,2021-02-22T00:00:00+00:00,60.21,78
+570,"Stock - Chicken, White",14,Uncategorized,2021-04-15T00:00:00+00:00,48.55,24
+571,Latex Rubber Gloves Size 9,14,Uncategorized,2021-01-19T00:00:00+00:00,1.13,44
+572,Wine - White Cab Sauv.on,14,Uncategorized,2020-12-06T00:00:00+00:00,34.66,27
+573,"Cheese - Brie, Cups 125g",14,Uncategorized,2020-06-12T00:00:00+00:00,36.30,32
+574,Flour - All Purpose,7,Baking,2021-03-28T00:00:00+00:00,5.11,41
+575,Lemon Balm - Fresh,14,Uncategorized,2021-04-24T00:00:00+00:00,24.68,64
+576,Tomatoes - Roma,14,Uncategorized,2020-07-05T00:00:00+00:00,10.38,89
+577,"Soup - Campbells, Classic Chix",14,Uncategorized,2020-12-10T00:00:00+00:00,24.59,48
+578,Beer - Upper Canada Light,14,Uncategorized,2020-10-11T00:00:00+00:00,98.21,66
+579,Hersey Shakes,5,Stationary,2020-09-16T00:00:00+00:00,79.61,74
+580,Extract - Rum,14,Uncategorized,2021-03-02T00:00:00+00:00,23.37,62
+581,Yams,14,Uncategorized,2020-10-05T00:00:00+00:00,12.88,40
+582,Water - Spring 1.5lit,14,Uncategorized,2021-03-18T00:00:00+00:00,99.96,49
+583,Skirt - 24 Foot,5,Stationary,2021-03-20T00:00:00+00:00,92.67,7
+584,Flour Dark Rye,7,Baking,2020-08-17T00:00:00+00:00,52.70,69
+585,Coffee - Almond Amaretto,14,Uncategorized,2020-09-17T00:00:00+00:00,97.09,82
+586,"Bread - Rolls, Rye",2,Grocery,2021-02-01T00:00:00+00:00,80.76,76
+587,Salmon - Fillets,14,Uncategorized,2021-03-12T00:00:00+00:00,68.90,8
+588,Cheese - Brick With Onion,14,Uncategorized,2020-07-31T00:00:00+00:00,52.21,63
+589,Tray - 16in Rnd Blk,14,Uncategorized,2021-04-15T00:00:00+00:00,32.03,89
+590,Pike - Frozen Fillet,14,Uncategorized,2021-01-12T00:00:00+00:00,6.97,5
+591,Kirsch - Schloss,14,Uncategorized,2021-03-09T00:00:00+00:00,42.90,44
+592,Ham - Procutinni,5,Stationary,2020-08-29T00:00:00+00:00,41.48,56
+593,Lettuce - Curly Endive,14,Uncategorized,2020-10-14T00:00:00+00:00,2.38,74
+594,Black Currants,14,Uncategorized,2021-05-24T00:00:00+00:00,17.39,52
+595,"Doilies - 5, Paper",5,Stationary,2020-07-15T00:00:00+00:00,1.06,86
+596,Gelatine Powder,14,Uncategorized,2020-08-11T00:00:00+00:00,60.24,100
+597,Noodles - Steamed Chow Mein,14,Uncategorized,2021-03-02T00:00:00+00:00,10.56,49
+598,"Yogurt - Raspberry, 175 Gr",14,Uncategorized,2020-09-23T00:00:00+00:00,9.79,35
+599,Tarts Assorted,14,Uncategorized,2020-09-04T00:00:00+00:00,84.04,27
+600,Icecream - Dstk Super Cone,14,Uncategorized,2020-11-30T00:00:00+00:00,50.84,96
+601,Wine - Rhine Riesling Wolf Blass,14,Uncategorized,2021-04-27T00:00:00+00:00,11.87,17
+602,Beans - Fine,14,Uncategorized,2021-01-09T00:00:00+00:00,54.25,84
+603,Wine - Cousino Macul Antiguas,14,Uncategorized,2020-12-12T00:00:00+00:00,33.22,48
+605,Russian Prince,14,Uncategorized,2020-08-25T00:00:00+00:00,72.46,49
+606,Cabbage - Nappa,14,Uncategorized,2021-04-13T00:00:00+00:00,74.35,2
+607,Syrup - Monin - Passion Fruit,14,Uncategorized,2020-06-10T00:00:00+00:00,14.17,55
+608,Jack Daniels,14,Uncategorized,2020-10-25T00:00:00+00:00,63.09,30
+609,"Beef - Ground, Extra Lean, Fresh",14,Uncategorized,2021-04-12T00:00:00+00:00,88.73,35
+610,Icecream - Dstk Cml And Fdg,14,Uncategorized,2020-11-13T00:00:00+00:00,78.11,81
+611,Beer - Muskoka Cream Ale,14,Uncategorized,2021-02-15T00:00:00+00:00,95.62,10
+612,Wine - Acient Coast Caberne,14,Uncategorized,2020-10-04T00:00:00+00:00,86.89,7
+613,"Shrimp - Baby, Warm Water",14,Uncategorized,2020-07-26T00:00:00+00:00,37.16,33
+614,Quiche Assorted,14,Uncategorized,2021-05-03T00:00:00+00:00,25.19,57
+615,Appetizer - Sausage Rolls,6,Pets,2021-04-02T00:00:00+00:00,93.60,94
+616,Ecolab - Ster Bac,14,Uncategorized,2020-12-05T00:00:00+00:00,93.16,79
+617,"Olives - Black, Pitted",14,Uncategorized,2021-06-04T00:00:00+00:00,67.08,76
+618,"Napkin - Beverge, White 2 - Ply",14,Uncategorized,2020-11-27T00:00:00+00:00,73.73,36
+619,Wine - Charddonnay Errazuriz,5,Stationary,2020-09-02T00:00:00+00:00,16.29,33
+620,Oil - Safflower,1,Flowers,2021-06-08T00:00:00+00:00,7.67,95
+621,Bread - Dark Rye,2,Grocery,2021-05-31T00:00:00+00:00,65.31,77
+622,Ginger - Ground,14,Uncategorized,2020-07-12T00:00:00+00:00,71.12,14
+623,Cucumber - English,14,Uncategorized,2021-01-19T00:00:00+00:00,82.68,68
+624,Sterno - Chafing Dish Fuel,14,Uncategorized,2021-01-20T00:00:00+00:00,52.77,48
+625,"Soup - Knorr, Chicken Noodle",14,Uncategorized,2021-04-23T00:00:00+00:00,50.07,30
+626,"Rum - Light, Captain Morgan",14,Uncategorized,2020-11-17T00:00:00+00:00,90.20,52
+627,Wine - Zinfandel California 2002,14,Uncategorized,2020-07-04T00:00:00+00:00,55.71,38
+628,"Pasta - Linguini, Dry",14,Uncategorized,2020-09-30T00:00:00+00:00,78.66,35
+629,Juice Peach Nectar,14,Uncategorized,2020-06-21T00:00:00+00:00,25.05,66
+630,"Beef - Roasted, Cooked",14,Uncategorized,2021-02-13T00:00:00+00:00,81.59,13
+631,Icecream Cone - Areo Chocolate,14,Uncategorized,2020-09-14T00:00:00+00:00,82.33,89
+632,Wine - Maipo Valle Cabernet,14,Uncategorized,2020-06-14T00:00:00+00:00,16.52,92
+633,Lamb Rack Frenched Australian,14,Uncategorized,2021-01-07T00:00:00+00:00,95.50,12
+634,Wine - Spumante Bambino White,14,Uncategorized,2021-02-06T00:00:00+00:00,99.09,30
+635,"Sauce - White, Mix",14,Uncategorized,2021-05-22T00:00:00+00:00,90.02,54
+636,Calypso - Black Cherry Lemonade,14,Uncategorized,2021-01-12T00:00:00+00:00,28.12,42
+637,Flour - Strong Pizza,7,Baking,2021-04-15T00:00:00+00:00,10.05,85
+638,Ecolab - Hand Soap Form Antibac,4,Cleaning,2021-05-31T00:00:00+00:00,89.15,74
+639,Nori Sea Weed,14,Uncategorized,2021-03-05T00:00:00+00:00,82.66,91
+640,Bread - Calabrese Baguette,2,Grocery,2020-10-03T00:00:00+00:00,25.38,43
+641,Tea - Earl Grey,14,Uncategorized,2020-09-13T00:00:00+00:00,95.08,31
+642,Capicola - Hot,14,Uncategorized,2020-06-27T00:00:00+00:00,90.60,55
+643,Chinese Foods - Chicken,14,Uncategorized,2020-12-19T00:00:00+00:00,4.77,76
+644,Bread - French Stick,2,Grocery,2021-04-02T00:00:00+00:00,94.19,21
+645,Sprouts - Onion,14,Uncategorized,2020-07-06T00:00:00+00:00,80.48,64
+646,Pastry - French Mini Assorted,14,Uncategorized,2020-10-31T00:00:00+00:00,53.14,42
+647,"Star Anise, Whole",14,Uncategorized,2020-06-13T00:00:00+00:00,23.01,78
+648,"7up Diet, 355 Ml",8,Spices,2025-09-15T12:10:04.767929+00:00,100.01,0
+649,Rabbit - Saddles,14,Uncategorized,2021-02-08T00:00:00+00:00,93.25,69
+650,Sour Puss - Tangerine,14,Uncategorized,2021-01-11T00:00:00+00:00,40.35,89
+651,Potato - Sweet,14,Uncategorized,2021-02-12T00:00:00+00:00,85.45,82
+652,Nantucket - Kiwi Berry Cktl.,14,Uncategorized,2020-09-07T00:00:00+00:00,59.74,98
+653,Wine - Ej Gallo Sierra Valley,5,Stationary,2021-02-16T00:00:00+00:00,28.12,21
+654,Onions - Red Pearl,14,Uncategorized,2021-05-01T00:00:00+00:00,2.23,93
+655,Soy Protein,14,Uncategorized,2020-08-07T00:00:00+00:00,94.42,14
+656,Sauce - Marinara,14,Uncategorized,2020-11-06T00:00:00+00:00,5.62,14
+657,Salt - Sea,14,Uncategorized,2020-11-25T00:00:00+00:00,25.91,95
+658,Wine - Jafflin Bourgongone,14,Uncategorized,2020-10-09T00:00:00+00:00,91.01,21
+659,Hot Choc Vending,14,Uncategorized,2020-09-06T00:00:00+00:00,52.05,76
+660,Amaretto,14,Uncategorized,2020-06-19T00:00:00+00:00,96.34,57
+661,"Garlic - Primerba, Paste",14,Uncategorized,2020-09-19T00:00:00+00:00,16.36,31
+662,Ecolab Silver Fusion,14,Uncategorized,2020-08-01T00:00:00+00:00,88.79,83
+663,Raisin - Golden,14,Uncategorized,2020-08-25T00:00:00+00:00,58.76,97
+664,Lettuce - Sea / Sea Asparagus,14,Uncategorized,2020-09-12T00:00:00+00:00,41.73,8
+665,"Wine - Red, Gamay Noir",14,Uncategorized,2020-06-18T00:00:00+00:00,6.72,23
+666,Coffee - Decafenated,14,Uncategorized,2020-07-09T00:00:00+00:00,21.93,74
+667,Mix - Cocktail Strawberry Daiquiri,14,Uncategorized,2021-06-08T00:00:00+00:00,52.74,53
+668,Carbonated Water - Strawberry,5,Stationary,2021-05-27T00:00:00+00:00,40.86,44
+669,Pepper - Red Bell,8,Spices,2020-07-12T00:00:00+00:00,25.64,41
+670,Ham - Black Forest,14,Uncategorized,2021-05-19T00:00:00+00:00,87.40,56
+671,Cakes Assorted,7,Baking,2020-08-03T00:00:00+00:00,31.81,79
+672,Wine - Domaine Boyar Royal,14,Uncategorized,2021-05-23T00:00:00+00:00,25.10,31
+673,"Cheese - Brie,danish",14,Uncategorized,2020-12-13T00:00:00+00:00,91.06,42
+674,Bread - Kimel Stick Poly,2,Grocery,2021-02-09T00:00:00+00:00,79.45,60
+675,Tomato - Green,14,Uncategorized,2020-10-01T00:00:00+00:00,38.98,18
+676,Extract - Lemon,5,Stationary,2021-05-04T00:00:00+00:00,78.16,5
+677,Tea - Orange Pekoe,14,Uncategorized,2021-04-09T00:00:00+00:00,13.80,5
+678,Langers - Mango Nectar,14,Uncategorized,2020-12-08T00:00:00+00:00,75.50,24
+679,"Apple - Delicious, Red",14,Uncategorized,2020-06-20T00:00:00+00:00,74.54,58
+680,Cleaner - Bleach,4,Cleaning,2021-04-28T00:00:00+00:00,59.18,88
+681,Spinach - Packaged,14,Uncategorized,2021-06-06T00:00:00+00:00,24.33,13
+682,Bacardi Breezer - Strawberry,14,Uncategorized,2021-05-29T00:00:00+00:00,37.22,97
+683,Sobe - Green Tea,14,Uncategorized,2020-08-29T00:00:00+00:00,52.08,13
+684,"Butter - Salted, Micro",14,Uncategorized,2021-05-04T00:00:00+00:00,14.83,68
+685,Spic And Span All Purpose,5,Stationary,2021-01-19T00:00:00+00:00,5.57,77
+686,Milkettes - 2%,2,Grocery,2021-06-06T00:00:00+00:00,11.77,32
+687,Quail Eggs - Canned,2,Grocery,2020-12-07T00:00:00+00:00,72.23,82
+688,Soap - Pine Sol Floor Cleaner,4,Cleaning,2021-04-12T00:00:00+00:00,97.73,0
+689,"Pail - 15l White, With Handle",14,Uncategorized,2020-08-17T00:00:00+00:00,73.84,49
+690,Flounder - Fresh,14,Uncategorized,2020-11-28T00:00:00+00:00,47.02,23
+691,Vol Au Vents,14,Uncategorized,2020-06-11T00:00:00+00:00,25.05,52
+692,Tea - Honey Green Tea,5,Stationary,2021-03-28T00:00:00+00:00,9.78,93
+693,Nectarines,14,Uncategorized,2021-05-23T00:00:00+00:00,53.85,11
+694,Bagels Poppyseed,14,Uncategorized,2020-07-28T00:00:00+00:00,77.76,52
+695,Table Cloth 53x69 White,14,Uncategorized,2021-01-03T00:00:00+00:00,92.17,67
+696,Wine - Balbach Riverside,14,Uncategorized,2020-10-24T00:00:00+00:00,45.95,47
+697,Bread Country Roll,2,Grocery,2020-07-07T00:00:00+00:00,48.85,46
+698,Wine - Tio Pepe Sherry Fino,14,Uncategorized,2020-11-02T00:00:00+00:00,58.48,75
+699,Curry Paste - Madras,14,Uncategorized,2020-07-15T00:00:00+00:00,50.49,14
+700,Lime Cordial - Roses,14,Uncategorized,2020-07-20T00:00:00+00:00,4.09,98
+701,"Fish - Halibut, Cold Smoked",6,Pets,2020-11-18T00:00:00+00:00,4.66,44
+702,Veal - Ground,14,Uncategorized,2020-09-10T00:00:00+00:00,61.72,36
+703,"Marsala - Sperone, Fine, D.o.c.",5,Stationary,2020-11-26T00:00:00+00:00,75.52,94
+704,"Tabasco Sauce, 2 Oz",14,Uncategorized,2020-12-17T00:00:00+00:00,47.85,76
+705,Uniform Linen Charge,14,Uncategorized,2020-09-14T00:00:00+00:00,53.02,4
+706,Soup - Campbells Beef Noodle,14,Uncategorized,2020-08-26T00:00:00+00:00,28.68,41
+707,"Salmon - Atlantic, No Skin",14,Uncategorized,2020-11-26T00:00:00+00:00,23.02,44
+708,Rice - Jasmine Sented,14,Uncategorized,2020-09-15T00:00:00+00:00,5.20,58
+709,Wine La Vielle Ferme Cote Du,14,Uncategorized,2020-11-02T00:00:00+00:00,23.11,28
+710,"Juice - Apple, 341 Ml",14,Uncategorized,2020-07-18T00:00:00+00:00,73.52,35
+711,Lemon Balm - Fresh,14,Uncategorized,2020-09-04T00:00:00+00:00,66.85,68
+712,"Garlic - Primerba, Paste",14,Uncategorized,2020-07-08T00:00:00+00:00,22.25,89
+713,"Chocolate - Milk, Callets",5,Stationary,2020-07-17T00:00:00+00:00,15.33,75
+714,Dill Weed - Dry,14,Uncategorized,2021-01-26T00:00:00+00:00,32.07,72
+715,Beef - Montreal Smoked Brisket,14,Uncategorized,2020-11-05T00:00:00+00:00,68.72,7
+716,Vaccum Bag - 14x20,14,Uncategorized,2021-04-13T00:00:00+00:00,41.39,17
+717,Soap - Mr.clean Floor Soap,4,Cleaning,2020-07-29T00:00:00+00:00,98.67,4
+718,"Sauce - Apple, Unsweetened",14,Uncategorized,2020-12-27T00:00:00+00:00,35.30,12
+719,"Crush - Grape, 355 Ml",14,Uncategorized,2020-12-14T00:00:00+00:00,2.04,49
+720,Cornstarch,14,Uncategorized,2020-08-26T00:00:00+00:00,58.32,4
+721,Dip - Tapenade,5,Stationary,2021-02-22T00:00:00+00:00,81.86,91
+722,Chicken - Livers,14,Uncategorized,2021-03-26T00:00:00+00:00,19.45,44
+723,Wine - Casillero Deldiablo,14,Uncategorized,2021-04-06T00:00:00+00:00,30.36,17
+724,Lambcasing,5,Stationary,2020-10-27T00:00:00+00:00,55.42,76
+725,Salmon Steak - Cohoe 8 Oz,14,Uncategorized,2020-09-10T00:00:00+00:00,38.96,21
+726,Cheese - Fontina,14,Uncategorized,2021-03-25T00:00:00+00:00,22.05,85
+727,Pails With Lids,14,Uncategorized,2020-10-04T00:00:00+00:00,3.75,52
+728,Pork - Smoked Kassler,14,Uncategorized,2021-01-18T00:00:00+00:00,30.41,4
+729,"Juice - Cranberry, 341 Ml",14,Uncategorized,2020-12-19T00:00:00+00:00,3.74,48
+730,Lettuce - Red Leaf,5,Stationary,2021-02-25T00:00:00+00:00,62.54,39
+731,Garbag Bags - Black,14,Uncategorized,2020-12-30T00:00:00+00:00,10.00,83
+732,Mustard - Individual Pkg,14,Uncategorized,2020-08-09T00:00:00+00:00,39.85,82
+733,"Wine - White, Gewurtzraminer",14,Uncategorized,2020-09-15T00:00:00+00:00,20.81,38
+734,Tea - Black Currant,5,Stationary,2021-03-25T00:00:00+00:00,87.59,82
+735,Chicken - Whole Fryers,14,Uncategorized,2020-08-23T00:00:00+00:00,92.72,44
+736,"Iced Tea - Lemon, 460 Ml",5,Stationary,2020-11-11T00:00:00+00:00,10.87,93
+737,Anchovy Paste - 56 G Tube,14,Uncategorized,2021-03-02T00:00:00+00:00,91.27,73
+738,Spice - Chili Powder Mexican,8,Spices,2021-01-15T00:00:00+00:00,81.19,46
+739,Milk - Buttermilk,2,Grocery,2020-07-09T00:00:00+00:00,51.96,46
+740,Teriyaki Sauce,14,Uncategorized,2021-01-19T00:00:00+00:00,74.90,6
+741,Mcgillicuddy Vanilla Schnap,14,Uncategorized,2021-04-25T00:00:00+00:00,6.59,8
+742,Syrup - Monin - Blue Curacao,14,Uncategorized,2020-10-24T00:00:00+00:00,4.21,0
+743,Bagels Poppyseed,14,Uncategorized,2020-07-05T00:00:00+00:00,41.27,46
+744,Bread - Focaccia Quarter,2,Grocery,2020-10-21T00:00:00+00:00,97.63,63
+745,Quinoa,14,Uncategorized,2020-06-20T00:00:00+00:00,98.74,75
+746,Eggplant - Regular,14,Uncategorized,2020-12-02T00:00:00+00:00,17.56,26
+747,Bagels Poppyseed,14,Uncategorized,2020-08-26T00:00:00+00:00,53.78,22
+748,Bread - Hamburger Buns,2,Grocery,2020-09-13T00:00:00+00:00,23.54,93
+749,"Bread - Roll, Calabrese",2,Grocery,2021-04-09T00:00:00+00:00,85.75,49
+750,Apricots - Dried,14,Uncategorized,2021-02-06T00:00:00+00:00,38.67,81
+751,Tea - Mint,14,Uncategorized,2020-12-27T00:00:00+00:00,24.54,17
+752,Beef - Shank,14,Uncategorized,2021-04-20T00:00:00+00:00,34.42,24
+753,"Soup - Beef, Base Mix",14,Uncategorized,2020-11-25T00:00:00+00:00,42.17,81
+754,Horseradish - Prepared,14,Uncategorized,2020-07-23T00:00:00+00:00,58.71,3
+755,Snapple Raspberry Tea,14,Uncategorized,2020-12-12T00:00:00+00:00,53.58,53
+756,Pastry - Apple Muffins - Mini,14,Uncategorized,2021-05-06T00:00:00+00:00,39.85,93
+757,"Cheese - Cheddar, Old White",14,Uncategorized,2020-08-03T00:00:00+00:00,89.36,78
+758,Syrup - Monin - Granny Smith,14,Uncategorized,2020-10-04T00:00:00+00:00,8.14,3
+759,Cinnamon Rolls,2,Grocery,2021-02-19T00:00:00+00:00,62.92,78
+760,"Sparkling Wine - Rose, Freixenet",14,Uncategorized,2020-06-25T00:00:00+00:00,67.78,32
+761,Sultanas,14,Uncategorized,2020-10-26T00:00:00+00:00,7.33,1
+762,Pepper - Green,8,Spices,2021-04-24T00:00:00+00:00,97.54,5
+763,Cheese - Ricotta,14,Uncategorized,2021-01-27T00:00:00+00:00,25.22,35
+764,Hot Choc Vending,14,Uncategorized,2021-06-01T00:00:00+00:00,82.25,74
+765,Tomato - Tricolor Cherry,14,Uncategorized,2020-11-17T00:00:00+00:00,21.61,34
+766,Cookie Double Choco,7,Baking,2021-05-26T00:00:00+00:00,72.75,90
+767,Frangelico,5,Stationary,2021-05-18T00:00:00+00:00,59.70,81
+768,Wine - Muscadet Sur Lie,14,Uncategorized,2020-07-21T00:00:00+00:00,22.25,89
+769,Steel Wool,14,Uncategorized,2021-01-27T00:00:00+00:00,20.32,55
+770,Olives - Morracan Dired,14,Uncategorized,2021-02-28T00:00:00+00:00,32.72,10
+771,Tomato Puree,14,Uncategorized,2020-10-27T00:00:00+00:00,55.37,37
+772,Sobe - Orange Carrot,14,Uncategorized,2021-01-08T00:00:00+00:00,84.76,80
+773,Beef Wellington,14,Uncategorized,2020-08-09T00:00:00+00:00,20.72,18
+774,Table Cloth 90x90 Colour,14,Uncategorized,2021-01-13T00:00:00+00:00,70.40,12
+775,Flour - Semolina,7,Baking,2020-12-07T00:00:00+00:00,40.01,63
+776,Sobe - Berry Energy,14,Uncategorized,2021-01-10T00:00:00+00:00,14.85,70
+777,Mcguinness - Blue Curacao,14,Uncategorized,2020-06-13T00:00:00+00:00,94.68,60
+778,Bag Stand,14,Uncategorized,2021-01-18T00:00:00+00:00,63.02,22
+779,Waffle Stix,5,Stationary,2020-12-13T00:00:00+00:00,88.15,18
+780,Bread - Frozen Basket Variety,2,Grocery,2020-12-25T00:00:00+00:00,89.47,2
+781,Wine - Shiraz South Eastern,14,Uncategorized,2021-01-16T00:00:00+00:00,62.23,47
+782,Wine - Jaboulet Cotes Du Rhone,14,Uncategorized,2021-06-07T00:00:00+00:00,84.37,43
+783,Bandage - Finger Cots,14,Uncategorized,2021-03-20T00:00:00+00:00,28.05,64
+784,Bread Ww Cluster,2,Grocery,2020-11-28T00:00:00+00:00,24.96,71
+785,Sauce - Plum,14,Uncategorized,2020-10-15T00:00:00+00:00,4.87,26
+786,"Salmon - Atlantic, Skin On",14,Uncategorized,2020-11-03T00:00:00+00:00,40.60,57
+787,Tea - Decaf Lipton,14,Uncategorized,2020-11-30T00:00:00+00:00,99.45,87
+788,Cake - Cake Sheet Macaroon,7,Baking,2021-05-25T00:00:00+00:00,25.66,63
+789,"Wine - Magnotta, Merlot Sr Vqa",5,Stationary,2021-04-21T00:00:00+00:00,95.54,61
+790,Apples - Spartan,14,Uncategorized,2020-09-02T00:00:00+00:00,40.39,47
+791,Pie Box - Cello Window 2.5,14,Uncategorized,2020-09-12T00:00:00+00:00,84.34,68
+792,Spice - Peppercorn Melange,8,Spices,2021-04-23T00:00:00+00:00,63.42,53
+793,"Cherries - Bing, Canned",14,Uncategorized,2021-05-20T00:00:00+00:00,7.50,74
+794,Bread - English Muffin,2,Grocery,2020-09-26T00:00:00+00:00,20.67,70
+795,Trueblue - Blueberry,5,Stationary,2021-04-24T00:00:00+00:00,93.86,81
+796,Longos - Penne With Pesto,5,Stationary,2020-10-24T00:00:00+00:00,95.72,53
+797,"Lamb - Loin, Trimmed, Boneless",14,Uncategorized,2020-09-04T00:00:00+00:00,38.98,97
+798,Wine - Rioja Campo Viejo,14,Uncategorized,2021-02-17T00:00:00+00:00,95.76,84
+799,Loquat,14,Uncategorized,2020-09-15T00:00:00+00:00,26.98,66
+800,Hold Up Tool Storage Rack,14,Uncategorized,2020-10-28T00:00:00+00:00,4.35,89
+801,Parsley - Dried,14,Uncategorized,2020-07-25T00:00:00+00:00,4.62,61
+802,Plasticforkblack,14,Uncategorized,2020-12-23T00:00:00+00:00,50.81,58
+803,Potato - Sweet,14,Uncategorized,2020-12-09T00:00:00+00:00,63.85,59
+804,Coffee - Cafe Moreno,14,Uncategorized,2021-01-02T00:00:00+00:00,15.59,91
+805,"Wine - Red, Colio Cabernet",14,Uncategorized,2021-03-23T00:00:00+00:00,96.99,59
+806,Ostrich - Fan Fillet,14,Uncategorized,2020-11-23T00:00:00+00:00,60.59,23
+807,Green Tea Refresher,14,Uncategorized,2021-05-04T00:00:00+00:00,57.25,90
+808,Flour - Rye,7,Baking,2021-02-03T00:00:00+00:00,88.01,18
+809,Sugar Thermometer,7,Baking,2020-09-11T00:00:00+00:00,97.85,81
+810,Wine - Tio Pepe Sherry Fino,14,Uncategorized,2021-02-20T00:00:00+00:00,47.11,67
+811,Cassis,14,Uncategorized,2021-01-17T00:00:00+00:00,94.98,96
+812,Ice Cream - Super Sandwich,14,Uncategorized,2021-01-19T00:00:00+00:00,15.08,84
+813,Sauce - Salsa,5,Stationary,2021-05-26T00:00:00+00:00,88.19,73
+814,Jerusalem Artichoke,14,Uncategorized,2021-03-05T00:00:00+00:00,60.16,87
+815,Juice - Prune,14,Uncategorized,2020-06-22T00:00:00+00:00,70.29,45
+816,Lamb - Sausage Casings,14,Uncategorized,2020-09-05T00:00:00+00:00,52.51,89
+817,Cleaner - Lime Away,4,Cleaning,2021-02-14T00:00:00+00:00,24.67,39
+818,Flour Dark Rye,7,Baking,2020-08-20T00:00:00+00:00,99.45,93
+819,Chef Hat 20cm,14,Uncategorized,2021-01-16T00:00:00+00:00,53.60,55
+820,"Pork - Sausage, Medium",14,Uncategorized,2021-02-25T00:00:00+00:00,56.86,26
+821,"Iced Tea - Lemon, 460 Ml",14,Uncategorized,2021-03-20T00:00:00+00:00,3.29,68
+822,Lobak,14,Uncategorized,2021-01-28T00:00:00+00:00,82.45,27
+823,"Juice - Apple, 500 Ml",14,Uncategorized,2021-04-02T00:00:00+00:00,47.96,50
+824,Cheese - La Sauvagine,14,Uncategorized,2021-01-17T00:00:00+00:00,76.15,61
+825,Plasticknivesblack,14,Uncategorized,2020-07-28T00:00:00+00:00,46.41,62
+826,Broom - Push,14,Uncategorized,2020-10-29T00:00:00+00:00,65.92,65
+827,Cookies - Assorted,7,Baking,2020-06-30T00:00:00+00:00,2.58,66
+828,Shrimp - 150 - 250,14,Uncategorized,2021-04-27T00:00:00+00:00,72.34,29
+829,Toamtoes 6x7 Select,14,Uncategorized,2020-11-05T00:00:00+00:00,74.25,44
+830,Duck - Breast,14,Uncategorized,2020-10-04T00:00:00+00:00,93.37,100
+831,Spice - Chili Powder Mexican,8,Spices,2020-07-25T00:00:00+00:00,7.24,68
+832,Mushroom - Chanterelle Frozen,14,Uncategorized,2020-10-01T00:00:00+00:00,9.80,27
+833,"Wine - Red, Gallo, Merlot",5,Stationary,2021-05-31T00:00:00+00:00,49.76,31
+834,Wine - Puligny Montrachet A.,14,Uncategorized,2020-11-18T00:00:00+00:00,88.48,10
+835,"Sole - Dover, Whole, Fresh",5,Stationary,2020-07-22T00:00:00+00:00,54.55,42
+836,Pork Ham Prager,14,Uncategorized,2021-02-16T00:00:00+00:00,35.20,15
+837,Beef - Sushi Flat Iron Steak,14,Uncategorized,2020-12-17T00:00:00+00:00,24.61,9
+838,General Purpose Trigger,14,Uncategorized,2020-07-24T00:00:00+00:00,57.76,89
+839,Chicken - White Meat With Tender,14,Uncategorized,2020-11-13T00:00:00+00:00,43.96,64
+840,Veal - Osso Bucco,14,Uncategorized,2020-11-23T00:00:00+00:00,47.20,48
+841,"Soup - Beef Conomme, Dry",14,Uncategorized,2020-07-17T00:00:00+00:00,81.56,86
+842,Aromat Spice / Seasoning,8,Spices,2021-01-16T00:00:00+00:00,53.24,43
+843,Veal - Loin,14,Uncategorized,2021-04-07T00:00:00+00:00,15.52,66
+844,"Beef - Cooked, Corned",14,Uncategorized,2021-04-29T00:00:00+00:00,62.21,56
+845,Crawfish,6,Pets,2020-09-06T00:00:00+00:00,8.68,26
+846,Pastry - Mini French Pastries,14,Uncategorized,2021-01-12T00:00:00+00:00,30.74,66
+847,Food Colouring - Green,5,Stationary,2020-12-22T00:00:00+00:00,64.27,12
+848,"Chicken - Breast, 5 - 7 Oz",14,Uncategorized,2021-03-25T00:00:00+00:00,32.82,72
+849,"Brownies - Two Bite, Chocolate",14,Uncategorized,2021-05-03T00:00:00+00:00,69.04,69
+850,Peppercorns - Green,8,Spices,2020-07-11T00:00:00+00:00,59.43,11
+851,Beef Dry Aged Tenderloin Aaa,14,Uncategorized,2020-11-26T00:00:00+00:00,55.63,31
+852,Soup - Cream Of Potato / Leek,14,Uncategorized,2020-10-27T00:00:00+00:00,4.49,52
+853,Corn - On The Cob,14,Uncategorized,2020-09-02T00:00:00+00:00,98.90,51
+854,Cream - 18%,14,Uncategorized,2021-05-03T00:00:00+00:00,37.33,74
+855,Lobster - Cooked,14,Uncategorized,2021-04-03T00:00:00+00:00,9.93,91
+856,Pork - Hock And Feet Attached,14,Uncategorized,2021-06-07T00:00:00+00:00,47.68,26
+857,"Wine - Red, Marechal Foch",14,Uncategorized,2021-04-02T00:00:00+00:00,78.94,77
+858,Salmon Steak - Cohoe 8 Oz,5,Stationary,2021-05-23T00:00:00+00:00,3.38,98
+859,Salmon Steak - Cohoe 8 Oz,14,Uncategorized,2021-03-24T00:00:00+00:00,61.72,11
+860,Onions - Vidalia,14,Uncategorized,2020-07-21T00:00:00+00:00,7.96,24
+861,Cheese - Brick With Onion,14,Uncategorized,2020-08-29T00:00:00+00:00,83.98,12
+862,"Juice - Apple, 500 Ml",14,Uncategorized,2020-06-20T00:00:00+00:00,91.83,41
+863,Coffee Cup 12oz 5342cd,14,Uncategorized,2021-04-28T00:00:00+00:00,91.88,60
+864,Appetizer - Crab And Brie,6,Pets,2021-04-30T00:00:00+00:00,77.29,94
+865,Heavy Duty Dust Pan,14,Uncategorized,2020-07-25T00:00:00+00:00,97.70,6
+866,Devonshire Cream,14,Uncategorized,2021-01-04T00:00:00+00:00,28.21,6
+867,Soup - Chicken And Wild Rice,14,Uncategorized,2020-07-29T00:00:00+00:00,36.20,74
+868,Lamb - Ground,14,Uncategorized,2021-05-09T00:00:00+00:00,67.34,34
+869,"Nut - Walnut, Pieces",14,Uncategorized,2021-02-24T00:00:00+00:00,90.88,63
+870,Pail With Metal Handle 16l White,14,Uncategorized,2020-10-12T00:00:00+00:00,67.41,96
+871,Cheese - Stilton,14,Uncategorized,2021-05-24T00:00:00+00:00,54.74,84
+872,Edible Flower - Mixed,1,Flowers,2020-12-08T00:00:00+00:00,17.58,50
+873,Vinegar - Rice,14,Uncategorized,2021-01-25T00:00:00+00:00,13.34,60
+874,Jameson - Irish Whiskey,14,Uncategorized,2021-04-23T00:00:00+00:00,70.75,42
+875,Milk - Condensed,2,Grocery,2020-06-30T00:00:00+00:00,72.56,57
+876,"Coffee - Beans, Whole",5,Stationary,2021-05-06T00:00:00+00:00,38.07,31
+877,Tea - Honey Green Tea,14,Uncategorized,2020-07-15T00:00:00+00:00,34.94,59
+878,Mountain Dew,14,Uncategorized,2020-06-18T00:00:00+00:00,72.29,78
+879,Dehydrated Kelp Kombo,14,Uncategorized,2020-11-24T00:00:00+00:00,19.22,42
+880,Ham - Cooked Italian,14,Uncategorized,2020-09-03T00:00:00+00:00,69.17,36
+881,"Pasta - Penne, Rigate, Dry",5,Stationary,2020-07-24T00:00:00+00:00,68.17,14
+882,Vinegar - White Wine,14,Uncategorized,2021-01-02T00:00:00+00:00,1.41,95
+883,Chicken - Leg / Back Attach,14,Uncategorized,2020-12-06T00:00:00+00:00,62.32,8
+884,Dc Hikiage Hira Huba,14,Uncategorized,2020-12-31T00:00:00+00:00,86.10,88
+885,Beets,14,Uncategorized,2020-09-19T00:00:00+00:00,4.77,79
+886,Cinnamon Buns Sticky,5,Stationary,2020-09-06T00:00:00+00:00,84.08,81
+887,Bagels Poppyseed,14,Uncategorized,2021-03-19T00:00:00+00:00,24.20,32
+888,"Pork - Loin, Boneless",14,Uncategorized,2021-01-31T00:00:00+00:00,30.54,31
+889,Broom And Broom Rack White,14,Uncategorized,2020-07-16T00:00:00+00:00,65.63,63
+890,Filo Dough,14,Uncategorized,2021-01-31T00:00:00+00:00,29.75,8
+891,"Mushroom - Morels, Dry",14,Uncategorized,2021-05-05T00:00:00+00:00,93.01,99
+892,Milkettes - 2%,2,Grocery,2021-01-25T00:00:00+00:00,39.56,27
+893,"Flour - Buckwheat, Dark",7,Baking,2021-02-23T00:00:00+00:00,63.49,73
+894,"Lemonade - Island Tea, 591 Ml",14,Uncategorized,2020-07-29T00:00:00+00:00,87.53,17
+895,Cup - 8oz Coffee Perforated,14,Uncategorized,2021-03-24T00:00:00+00:00,4.99,51
+896,Wine - Periguita Fonseca,14,Uncategorized,2021-01-09T00:00:00+00:00,28.30,60
+897,Sour Puss - Tangerine,14,Uncategorized,2021-03-14T00:00:00+00:00,2.28,23
+898,Pie Shells 10,14,Uncategorized,2020-07-03T00:00:00+00:00,93.69,5
+899,Steampan Lid,14,Uncategorized,2020-09-23T00:00:00+00:00,74.10,70
+900,Flower - Leather Leaf Fern,1,Flowers,2020-11-21T00:00:00+00:00,74.87,40
+901,Tea - Grapefruit Green Tea,5,Stationary,2021-03-10T00:00:00+00:00,55.42,40
+902,Nacho Chips,2,Grocery,2020-12-20T00:00:00+00:00,8.37,22
+903,Apples - Spartan,14,Uncategorized,2021-02-24T00:00:00+00:00,45.92,93
+904,Salami - Genova,14,Uncategorized,2020-07-16T00:00:00+00:00,13.74,97
+906,Lumpfish Black,6,Pets,2020-07-17T00:00:00+00:00,56.77,62
+907,"Lamb - Whole, Frozen",14,Uncategorized,2020-11-10T00:00:00+00:00,16.64,39
+908,Soup - Campbells,14,Uncategorized,2020-12-13T00:00:00+00:00,58.28,78
+909,Bread - Mini Hamburger Bun,5,Stationary,2021-05-10T00:00:00+00:00,3.98,56
+910,Beef - Top Butt Aaa,14,Uncategorized,2020-10-23T00:00:00+00:00,70.60,93
+911,The Pop Shoppe - Root Beer,5,Stationary,2020-11-28T00:00:00+00:00,81.50,97
+912,Wine - Niagara Peninsula Vqa,5,Stationary,2021-03-31T00:00:00+00:00,77.05,87
+913,"Wine - Red, Mouton Cadet",14,Uncategorized,2020-12-05T00:00:00+00:00,16.96,32
+914,Longos - Chicken Cordon Bleu,14,Uncategorized,2020-06-21T00:00:00+00:00,64.01,90
+915,Lamb - Ground,14,Uncategorized,2020-11-07T00:00:00+00:00,73.04,92
+916,Sour Puss Sour Apple,14,Uncategorized,2021-05-21T00:00:00+00:00,59.71,1
+917,Gingerale - Diet - Schweppes,14,Uncategorized,2020-12-21T00:00:00+00:00,80.01,96
+918,Soup - Base Broth Chix,14,Uncategorized,2020-08-03T00:00:00+00:00,1.82,45
+919,Bread - French Stick,5,Stationary,2020-09-18T00:00:00+00:00,62.49,73
+920,"Turnip - White, Organic",14,Uncategorized,2021-05-30T00:00:00+00:00,43.91,63
+921,Flour - Semolina,7,Baking,2020-12-17T00:00:00+00:00,25.44,16
+922,Snapple Lemon Tea,14,Uncategorized,2020-12-06T00:00:00+00:00,92.30,49
+923,Chocolate - Semi Sweet,14,Uncategorized,2020-11-12T00:00:00+00:00,93.91,46
+924,Apple - Fuji,14,Uncategorized,2020-12-08T00:00:00+00:00,82.27,22
+925,Oil - Grapeseed Oil,14,Uncategorized,2020-09-05T00:00:00+00:00,11.68,87
+926,Ham - Cooked,14,Uncategorized,2021-02-10T00:00:00+00:00,57.01,16
+927,Blackberries,14,Uncategorized,2020-07-21T00:00:00+00:00,22.24,17
+928,Onions - Spanish,14,Uncategorized,2021-06-09T00:00:00+00:00,99.83,15
+929,Wheat - Soft Kernal Of Wheat,14,Uncategorized,2020-08-18T00:00:00+00:00,38.36,28
+930,Tandoori Curry Paste,14,Uncategorized,2021-04-03T00:00:00+00:00,15.51,7
+931,Ice Cream Bar - Oreo Sandwich,14,Uncategorized,2020-09-09T00:00:00+00:00,29.51,43
+932,Instant Coffee,14,Uncategorized,2021-03-16T00:00:00+00:00,67.65,26
+933,"Yogurt - Blueberry, 175 Gr",14,Uncategorized,2020-09-07T00:00:00+00:00,93.57,8
+934,Juice - Orange 1.89l,14,Uncategorized,2020-07-20T00:00:00+00:00,24.33,63
+935,"Clams - Littleneck, Whole",14,Uncategorized,2020-08-19T00:00:00+00:00,80.37,45
+936,Chicken - Whole Fryers,14,Uncategorized,2021-01-09T00:00:00+00:00,59.14,59
+937,Tart - Lemon,14,Uncategorized,2020-10-06T00:00:00+00:00,56.34,88
+938,"Pesto - Primerba, Paste",14,Uncategorized,2021-01-16T00:00:00+00:00,85.67,27
+939,Apple - Granny Smith,14,Uncategorized,2020-09-30T00:00:00+00:00,77.92,68
+940,Cranberries - Dry,14,Uncategorized,2020-08-14T00:00:00+00:00,50.45,87
+941,Sponge Cake Mix - Chocolate,7,Baking,2021-03-04T00:00:00+00:00,72.18,84
+942,Daikon Radish,14,Uncategorized,2021-05-30T00:00:00+00:00,12.90,47
+943,"Bread - Roll, Whole Wheat",2,Grocery,2020-09-05T00:00:00+00:00,85.47,95
+944,"Wine - White, French Cross",14,Uncategorized,2021-01-06T00:00:00+00:00,19.88,88
+945,Numi - Assorted Teas,14,Uncategorized,2020-12-22T00:00:00+00:00,29.59,7
+946,Longos - Chicken Cordon Bleu,14,Uncategorized,2021-05-26T00:00:00+00:00,46.23,46
+947,Spice - Pepper Portions,8,Spices,2020-08-29T00:00:00+00:00,7.48,100
+948,Pastry - Cheese Baked Scones,14,Uncategorized,2020-08-19T00:00:00+00:00,48.37,3
+949,Sprouts - Pea,14,Uncategorized,2021-02-02T00:00:00+00:00,76.76,82
+950,Yoghurt Tubes,14,Uncategorized,2020-10-01T00:00:00+00:00,97.98,34
+951,Ginger - Pickled,5,Stationary,2020-06-28T00:00:00+00:00,49.31,56
+952,Salmon Steak - Cohoe 6 Oz,14,Uncategorized,2020-06-18T00:00:00+00:00,16.26,35
+953,"Loaf Pan - 2 Lb, Foil",14,Uncategorized,2020-08-29T00:00:00+00:00,31.72,85
+954,Pastry - Choclate Baked,14,Uncategorized,2021-02-08T00:00:00+00:00,64.81,65
+955,Mustard - Seed,14,Uncategorized,2021-03-09T00:00:00+00:00,21.70,7
+956,"Mushroom - Enoki, Fresh",14,Uncategorized,2021-06-03T00:00:00+00:00,94.14,36
+957,"Coffee - Colombian, Portioned",14,Uncategorized,2020-11-29T00:00:00+00:00,30.80,88
+958,Juice - Ocean Spray Cranberry,14,Uncategorized,2020-06-14T00:00:00+00:00,33.25,93
+959,Tomato Puree,14,Uncategorized,2020-07-29T00:00:00+00:00,87.22,46
+960,Wine - Rosso Del Veronese Igt,14,Uncategorized,2021-05-28T00:00:00+00:00,78.05,45
+961,Wine - Fume Blanc Fetzer,14,Uncategorized,2020-10-25T00:00:00+00:00,1.16,46
+962,Goldschalger,14,Uncategorized,2021-03-16T00:00:00+00:00,37.26,91
+963,Wine - Manischewitz Concord,14,Uncategorized,2021-04-20T00:00:00+00:00,48.87,53
+964,Beets - Golden,14,Uncategorized,2020-09-11T00:00:00+00:00,42.69,72
+965,Oysters - Smoked,14,Uncategorized,2021-04-29T00:00:00+00:00,41.69,0
+966,Salmon Atl.whole 8 - 10 Lb,14,Uncategorized,2021-01-03T00:00:00+00:00,30.31,74
+967,Rolled Oats,2,Grocery,2020-09-07T00:00:00+00:00,30.25,62
+968,Monkfish - Fresh,6,Pets,2020-10-16T00:00:00+00:00,71.71,98
+969,Carbonated Water - Blackcherry,14,Uncategorized,2021-04-21T00:00:00+00:00,62.44,94
+970,Pur Source,14,Uncategorized,2020-08-21T00:00:00+00:00,35.58,28
+971,Pie Filling - Pumpkin,14,Uncategorized,2020-12-01T00:00:00+00:00,1.38,46
+972,Wonton Wrappers,14,Uncategorized,2020-09-26T00:00:00+00:00,61.63,19
+973,Straw - Regular,14,Uncategorized,2021-03-24T00:00:00+00:00,14.67,3
+974,"Sparkling Wine - Rose, Freixenet",14,Uncategorized,2020-08-07T00:00:00+00:00,56.63,66
+975,Galliano,14,Uncategorized,2021-01-29T00:00:00+00:00,93.29,90
+976,Passion Fruit,14,Uncategorized,2020-11-27T00:00:00+00:00,64.48,35
+977,Neckerchief Blck,14,Uncategorized,2020-07-14T00:00:00+00:00,90.31,100
+978,Sugar - Crumb,7,Baking,2021-02-17T00:00:00+00:00,87.45,0
+979,Oats Large Flake,14,Uncategorized,2020-09-17T00:00:00+00:00,53.35,82
+980,Gelatine Leaves - Envelopes,14,Uncategorized,2020-11-19T00:00:00+00:00,74.18,91
+981,Chicken - Leg / Back Attach,14,Uncategorized,2020-08-12T00:00:00+00:00,54.26,65
+982,Cheese - Comte,14,Uncategorized,2020-09-08T00:00:00+00:00,75.97,42
+983,Vinegar - Champagne,14,Uncategorized,2020-06-20T00:00:00+00:00,86.92,81
+984,Kiwi,14,Uncategorized,2021-02-24T00:00:00+00:00,79.46,99
+985,Kohlrabi,14,Uncategorized,2021-03-12T00:00:00+00:00,48.16,77
+986,Brandy Cherry - Mcguinness,14,Uncategorized,2021-01-20T00:00:00+00:00,9.64,57
+987,Sultanas,14,Uncategorized,2020-06-20T00:00:00+00:00,62.10,1
+988,V8 - Berry Blend,14,Uncategorized,2020-07-16T00:00:00+00:00,15.77,64
+989,"Soup - Campbells, Creamy",14,Uncategorized,2021-01-06T00:00:00+00:00,22.70,30
+990,Creamers - 10%,5,Stationary,2021-01-05T00:00:00+00:00,71.17,53
+991,"Mushroom - Porcini, Dry",14,Uncategorized,2020-07-08T00:00:00+00:00,41.43,36
+992,Cake - Miini Cheesecake Cherry,7,Baking,2020-10-27T00:00:00+00:00,53.99,59
+993,Carbonated Water - Raspberry,14,Uncategorized,2021-04-20T00:00:00+00:00,32.22,51
+994,Cream Of Tartar,14,Uncategorized,2020-08-31T00:00:00+00:00,35.22,44
+995,"Club Soda - Schweppes, 355 Ml",14,Uncategorized,2021-03-19T00:00:00+00:00,8.32,61
+996,"Beef - Rib Roast, Capless",14,Uncategorized,2020-06-20T00:00:00+00:00,52.90,68
+997,Salt - Table,14,Uncategorized,2021-05-02T00:00:00+00:00,37.51,7
+998,Muffin Hinge 117n,14,Uncategorized,2020-06-29T00:00:00+00:00,59.84,98
+999,Chicken - Wieners,5,Stationary,2020-08-16T00:00:00+00:00,58.57,5
+1000,Dried Peach,14,Uncategorized,2020-12-12T00:00:00+00:00,41.22,39
+1001,Lettuce - Iceberg,14,Uncategorized,2025-09-14T11:53:20.240551+00:00,20.00,20
+1002,lettuce,14,Uncategorized,2025-09-14T12:08:57.923294+00:00,50.00,60
+1003,Lettuce Crisphead,14,Uncategorized,2025-09-14T17:36:50.625108+00:00,50.00,50
+1004,Lettuce lettuce-butter,14,Uncategorized,2025-09-14T17:47:58.385679+00:00,50.00,50
+1005,Lettuce lettuce-butter,14,Uncategorized,2025-09-14T18:00:02.920412+00:00,50.00,50
+1006,Lettuce-Loose Leaf,14,Uncategorized,2025-09-14T18:05:17.823530+00:00,0.02,100
+1007,lettuce,11,Vegitables,2025-09-15T16:06:37.203175+00:00,0.02,100
+1008,lettuce lose leafy,11,Vegitables,2025-09-15T18:55:58.970996+00:00,0.02,100
+1009,tommato,11,Vegitables,2025-09-15T20:03:42.757360+00:00,50.00,100
+1010,Goat,6,Pets,2025-09-15T20:27:49.141252+00:00,1000.00,100
+1011,ethioleaplettuce,8,Spices,2025-09-16T18:38:32.227550+00:00,300.00,150
+1012,ethioleaplettuce_iceburg,8,Spices,2025-09-16T18:41:45.290503+00:00,200.00,150
+1013,ethioleaplettuce_leffy,8,Spices,2025-09-16T18:46:20.930413+00:00,130.00,200
+1014,lettuce_leafy,1,Flowers,2025-09-16T19:09:07.853361+00:00,4.00,11
+1015,"7up Diet, 355 Ml",8,Spices,2025-09-16T21:15:58.042390+00:00,100.01,0

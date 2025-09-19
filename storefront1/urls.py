@@ -31,4 +31,5 @@ urlpatterns = [
     #path('collections/<int:pk>/', include('store.urls')),
     path('playground/', include('playground.urls')),# any route that starts with palyground should be routed to playground app and to urls.py module
     path('__debug__/', include('debug_toolbar.urls')), # debug toolbar
+
 ]

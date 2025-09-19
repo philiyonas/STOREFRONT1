@@ -1,11 +1,12 @@
 from django.core.validators import MinValueValidator    
 from django.db import models
+from django.apps import apps
 
 # Create your models here.
 
 class Collection(models.Model):
-    title=models.CharField(max_length=255)
-    featured_product=models.ForeignKey('Product', on_delete=models.SET_NULL, null=True, related_name='+')# if a product is deleted the featured product is set to null and the related name is set to + to avoid reverse relation
+    title = models.CharField(max_length=255)
+    featured_product = models.ForeignKey('Product', on_delete=models.SET_NULL, null=True, related_name='featured_in')
   
    # def__str_self(self):-
    #
@@ -33,16 +34,26 @@ class Promotion(models.Model):
    
 
 
+def get_uncategorized_collection_pk():
+    Collection = apps.get_model('store', 'Collection')
+    obj, _ = Collection.objects.get_or_create(title='Uncategorized')
+    return obj.pk
+
 class Product(models.Model):
     title=models.CharField(max_length=255)
     slug = models.SlugField() 
-    description=models.TextField(blank=True, null=True) # description can be blank or null
+    description=models.TextField(blank=True, null=True)
     unit_price=models.DecimalField(
         max_digits=6, decimal_places=2, 
-        validators=[MinValueValidator(0.01)]) # price cannot be negative
+        validators=[MinValueValidator(0.01)])
     inventory=models.IntegerField()
     last_update=models.DateTimeField(auto_now=True)
-    collection = models.ForeignKey(Collection, on_delete=models.PROTECT, related_name='products')# if a collection is deleted its products are not deleted and an error is raised
+    collection = models.ForeignKey(
+        Collection,
+        on_delete=models.PROTECT,
+        related_name='products',
+        default=get_uncategorized_collection_pk
+    )
     promotions=models.ManyToManyField(Promotion, blank=True)# a product can have multiple promotions and a promotion can be applied to multiple products
     def __str__(self):
         return self.title
@@ -67,7 +78,7 @@ class Customer(models.Model):
     email=models.EmailField(unique=True)
     phone=models.CharField(max_length=255)
     birth_date=models.DateField(null=True)
-    membership=models.CharField(max_length=255, choices=MEMBERSHIP_CHOICES, default=MEMBERSHIP_BRONZE)
+    membership=models.CharField(max_length=1, choices=MEMBERSHIP_CHOICES, default=MEMBERSHIP_BRONZE)  # changed to max_length=1
     
     def __str__(self):
         return f'{self.first_name} {self.last_name}'
@@ -120,12 +131,12 @@ class Address(models.Model):
 
 class OrderItem(models.Model):
     order=models.ForeignKey(Order, on_delete=models.PROTECT)# if an order is deleted all its items are not deleted as well and an error is raised 
-    product=models.ForeignKey(Product, on_delete=models.PROTECT)# if a product is deleted its order items are not deleted and an error is raised 
+    product = models.ForeignKey(Product, related_name='orderitems', on_delete=models.PROTECT)
     quantity=models.PositiveSmallIntegerField()
     unit_price=models.DecimalField(max_digits=6, decimal_places=2)
 
     def __str__(self):
-        return f'OrderItem {self.id} - Order {self.order.id} - Product {self.product.title}'
+        return f'OrderItem {self.pk} - Order {self.order.pk} - Product {self.product.title}'
     class Meta:
         db_table ='store_orderitem' # custom table name
         indexes=[
