@@ -4,9 +4,8 @@ from django.shortcuts import render, get_object_or_404
 from django.db.models import Count
 from django.http import HttpResponse
 
-from .models import Product, OrderItem, Collection
-from .models import Product,OrderItem, Collection
-from .serializers import ProductSerializer , CollectionSerializer
+from .models import Product, OrderItem, Collection, Review
+from .serializers import ProductSerializer , CollectionSerializer, ReviewSerializer
 
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
@@ -17,9 +16,17 @@ from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIV
 from rest_framework.viewsets import ModelViewSet 
 #product and products/1/ and collections and collections/1/ with one api view set for each
 class ProductViewSet(ModelViewSet):
-	queryset = Product.objects.all() # this querry sets all products and their related collection in one go
+	#queryset = Product.objects.all() # this querry sets all products and their related collection in one go
 	serializer_class = ProductSerializer
-	
+	# to avoid n+1 query problem we use select_related to fetch related collection data in the same query
+	def get_queryset(self):
+		queryset = Product.objects.all()
+		collection_id = self.request.query_params.get('collection_id')
+		if collection_id is not None:
+			queryset = queryset.filter(collection_id=collection_id)
+		return queryset
+
+				
 	def get_serializer_context(self):
 		return {'request': self.request} # include request in context for HyperlinkedRelatedField
 	
@@ -41,4 +48,12 @@ class CollectionViewSet(ModelViewSet):
 		collection = get_object_or_404(Collection, pk=kwargs['pk'])
 		if Product.objects.filter(collection=collection).exists():
 			return Response({'error':'collection cannot be deleted b/c it has a product'}, status=status.HTTP_405_METHOD_NOT_ALLOWED)
+		return super().destroy(request, *args, **kwargs)
+class ReviewViewSet(ModelViewSet):
+	serializer_class = ReviewSerializer
+	def get_queryset(self):
+		return Review.objects.filter(product_id=self.kwargs['product_pk'])
+	def get_serializer_context(self):
+		return {'request': self.request} # include request in context for HyperlinkedRelatedField
+	def destroy(self, request, *args, **kwargs):
 		return super().destroy(request, *args, **kwargs)

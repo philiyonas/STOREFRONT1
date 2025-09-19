@@ -28,11 +28,11 @@ class Promotion(models.Model):
         ordering=['description'] # default ordering by description
 
    
-def get_uncategorized_collection_pk():
+""" def get_uncategorized_collection_pk():
     Collection = apps.get_model('store', 'Collection')# get the Collection model from the store app
     obj, _ = Collection.objects.get_or_create(title='Uncategorized')# create the collection if it doesn't exist
     return obj.pk
-
+ """
 class Product(models.Model):
     title=models.CharField(max_length=255)
     slug = models.SlugField() 
@@ -46,7 +46,9 @@ class Product(models.Model):
         Collection,
         on_delete=models.PROTECT,
         related_name='products',
-        default=get_uncategorized_collection_pk
+        #default=get_uncategorized_collection_pk
+        blank=True,
+        null=True
     )
     promotions=models.ManyToManyField(Promotion, blank=True)# a product can have multiple promotions and a promotion can be applied to multiple products
     def __str__(self):
@@ -139,7 +141,7 @@ class OrderItem(models.Model):
 
 class Cart(models.Model):
     created_at=models.DateTimeField(auto_now_add=True)
-    #cart_shared=models.BooleanField(default=False)# if true the cart can be shared with other users via a link
+    cart_shared=models.BooleanField(default=False)# if true the cart can be shared with other users via a link
 
 
 class CartItem(models.Model):
@@ -147,3 +149,17 @@ class CartItem(models.Model):
     product=models.ForeignKey(Product, on_delete=models.CASCADE)# if a product is deleted all its cart items are deleted as well                
     quantity=models.PositiveSmallIntegerField()
 
+class Review(models.Model):
+    '''if a product is deleted all its reviews are deleted as well and 
+    related name setted to reviews so we can access reviews of a product via product.reviews.all()''' 
+    name=models.CharField(max_length=255)
+    product=models.ForeignKey(Product, on_delete=models.CASCADE, related_name='reviews')
+    description=models.TextField()
+    date=models.DateField(auto_now_add=True)
+    '''string representation of the model, used in the admin site and in the shell 
+    for easy identification of the model instance example Review 1 - Product 1 by John Doe'''
+    def __str__(self):
+        return f'Review {self.pk} - {self.product.title} by {self.name}'
+    
+    class Meta:
+        ordering=['-date'] # default ordering by date descending
