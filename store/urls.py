@@ -1,4 +1,4 @@
-from django.urls import path
+from django.urls import path,include
 from store import views
 from rest_framework.routers import SimpleRouter, DefaultRouter
 from pprint import pprint
@@ -11,6 +11,7 @@ pprint(router.urls)
 app_name = 'store'
 
 urlpatterns = [
+    path('', include(router.urls)),  # Include all the routes defined in the router   
     ####path('collections/<int:pk>/', views.CollectionDetail.as_view()),
 
 ]
