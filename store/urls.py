@@ -6,8 +6,8 @@ from store import views
 
 #parent urls conf
 router = routers.DefaultRouter()
-router.register('products', views.ProductViewSet)
-router.register('collections', views.CollectionViewSet)
+router.register('products', views.ProductViewSet, basename='products')
+router.register('collections', views.CollectionViewSet, basename='collections')
 
 # parent-child relationship urls conf
 products_router = routers.NestedDefaultRouter(router, 'products', lookup='product')

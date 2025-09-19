@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',    # <-- fixed typo here (was 'django.conions')
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_filters',  # for filtering support
     'rest_framework',
     'playground',
     'debug_toolbar',
