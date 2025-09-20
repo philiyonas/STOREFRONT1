@@ -152,14 +152,14 @@ class CartItem(models.Model):
 class Review(models.Model):
     '''if a product is deleted all its reviews are deleted as well and 
     related name setted to reviews so we can access reviews of a product via product.reviews.all()''' 
-    name=models.CharField(max_length=255)
+    name=models.CharField(max_length=255)# name of person setting reviews 
     product=models.ForeignKey(Product, on_delete=models.CASCADE, related_name='reviews')
     description=models.TextField()
     date=models.DateField(auto_now_add=True)
     '''string representation of the model, used in the admin site and in the shell 
     for easy identification of the model instance example Review 1 - Product 1 by John Doe'''
-    def __str__(self):
+    """ def __str__(self):
         return f'Review {self.pk} - {self.product.title} by {self.name}'
     
     class Meta:
-        ordering=['-date'] # default ordering by date descending
+        ordering=['-date'] # default ordering by date descending """

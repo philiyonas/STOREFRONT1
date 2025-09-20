@@ -49,10 +49,11 @@ class ProductSerializer(serializers.ModelSerializer):
 
 class ReviewSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Product
+        model = Review
         fields = ['id', 'name', 'description', 'date'] # fields to be serialized
         #read_only_fields = ['id', 'date'] # fields that are read-only and cannot be modified    
+        
     def create(self, validated_data):
-        product_id = self.context['product_id'] # get the product_id from the context
+        product_id = self.context['product_id'] # get the product_id from the context 
         return Review.objects.create(product_id=product_id, **validated_data) # create a new review with the product_id and validated data
 

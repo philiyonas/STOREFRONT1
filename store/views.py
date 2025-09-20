@@ -5,7 +5,7 @@ from django.db.models import Count
 from django.http import HttpResponse
 
 from django_filters.rest_framework import DjangoFilterBackend	
-#from rest_framework import SearchFilter, OrderingFilter # for search and ordering support
+from rest_framework.filters import SearchFilter, OrderingFilter # for search and ordering support
 #from rest_framework import PageNumberPagination	# pagination class for paginating large querysets 	
 
 from .models import Product, OrderItem, Collection, Review
@@ -22,11 +22,13 @@ from rest_framework.viewsets import ModelViewSet
 
 
 class ProductViewSet(ModelViewSet):
-	serializer_class = ProductSerializer
+	serializer_class = ProductSerializer # specify the serializer to be used for this viewset
+	filter_backends = [DjangoFilterBackend, SearchFilter, OrderingFilter] # add filtering
+	
 	
 	def get_queryset(self):
 		queryset = Product.objects.all() # this querry sets all products and their related collection in one go
-		collection_id = self.request.query_params.get('collection_id')
+		collection_id = self.request.GET.get('collection_id')# changed to GET from query_params to match the request object method
 		if collection_id is not None:
 			queryset = queryset.filter(collection_id=collection_id)
 		return queryset
@@ -62,10 +64,13 @@ class CollectionViewSet(ModelViewSet):
 	
 	
 class ReviewViewSet(ModelViewSet):
+	#queryset =Review.objects.all()
 	serializer_class = ReviewSerializer
+	# since we have access to review class attributes here we can overide it and add extra field
+	# and use it to serializer viewset usning context object  
 	def get_queryset(self):
 		return Review.objects.filter(product_id=self.kwargs['product_pk'])
 	def get_serializer_context(self):
-		return {'request': self.request} # include request in context for HyperlinkedRelatedField
+		return {'product_id': self.kwargs['product_pk']} # include request in context for HyperlinkedRelatedField
 	def destroy(self, request, *args, **kwargs):
-		return super().destroy(request, *args, **kwargs)
+		return super().destroy(request, *args, **kwargs) 
