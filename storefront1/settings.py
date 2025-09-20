@@ -162,7 +162,8 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 REST_FRAMEWORK = { 
-    #'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
-   # 'PAGE_SIZE': 10,  # Default page size
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',# WE DONT NEED TO SPECIFY THIS HERE B/C WE ARE SPECIFYING IT IN THE VIEWSET
+    'PAGE_SIZE': 10,  # Default page size
+    
     'COERCE_DECIMAL_TO_STRING': False,  # Ensures Decimal fields are returned as decimal numbers, not strings
 }

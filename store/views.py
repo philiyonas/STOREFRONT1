@@ -3,7 +3,10 @@
 from django.shortcuts import render, get_object_or_404 
 from django.db.models import Count
 from django.http import HttpResponse
+
 from django_filters.rest_framework import DjangoFilterBackend	
+from rest_framework import SearchFilter, OrderingFilter # for search and ordering support
+from rest_framework import PageNumberPagination	# pagination class for paginating large querysets 	
 
 from .models import Product, OrderItem, Collection, Review
 from .serializers import ProductSerializer , CollectionSerializer, ReviewSerializer
@@ -19,8 +22,13 @@ from rest_framework.viewsets import ModelViewSet
 class ProductViewSet(ModelViewSet):
 	queryset = Product.objects.all() # this querry sets all products and their related collection in one go
 	serializer_class = ProductSerializer
-	filter_backends = [DjangoFilterBackend]
-	filterset_fields = ['collection_id'] # allows filtering products by collection_id and unit_price using query parameters
+	filter_backends = [DjangoFilterBackend, SearchFilter, OrderingFilter]
+	filterset_class =ProductFilter
+	pagination_class = PageNumberPagination # paginate large querysets with default page size of 10
+
+	search_fields = ['title', 'description'] # enables search by title and description using ?search=keyword
+	ordering_fields = ['unit_price', 'last_update'] # allows ordering by unit_price and
+	filterset_fields = ['collection_id', ['unit_price']] # allows filtering products by collection_id and unit_price using query parameters
 	
 	def get_serializer_context(self):
 		return {'request': self.request} # include request in context for HyperlinkedRelatedField
