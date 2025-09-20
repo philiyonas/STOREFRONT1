@@ -1,25 +1,18 @@
 # views.py - request handlers for the store app it is convention to name it views.py but it can be named anything
 
-from django.shortcuts import render, get_object_or_404 
+from django.shortcuts import get_object_or_404 
 from django.db.models import Count
+
 from django_filters.rest_framework import DjangoFilterBackend	
 from rest_framework.filters import SearchFilter, OrderingFilter # for search and ordering support
-#from rest_framework import PageNumberPagination	# pagination class for paginating large querysets 	
-
-from .models import Product, OrderItem, Collection, Review
-from .serializers import ProductSerializer , CollectionSerializer, ReviewSerializer
-from .filter import ProductFilter
-from .pagination import DefaultPagination
-
-
-from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status 	
-from rest_framework.views import APIView
-from rest_framework.mixins import ListModelMixin, CreateModelMixin, RetrieveModelMixin, UpdateModelMixin, DestroyModelMixin
-from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView 
 from rest_framework.viewsets import ModelViewSet 
-#product and products/1/ and collections and collections/1/ with one api view set for each
+
+from .models import Product, OrderItem, Collection, Review
+from .serializers import ProductSerializer , CollectionSerializer, ReviewSerializer 
+from .filter import ProductFilter # 
+from .pagination import DefaultPagination # custom pagination class for paginating large querysets
 
 
 class ProductViewSet(ModelViewSet):
@@ -58,7 +51,7 @@ class CollectionViewSet(ModelViewSet):
 	
 	
 class ReviewViewSet(ModelViewSet):
-	#queryset =Review.objects.all()
+	queryset =Review.objects.all()
 	serializer_class = ReviewSerializer
 	# since we have access to review class attributes here we can overide it and add extra field
 	# and use it to serializer viewset usning context object  
