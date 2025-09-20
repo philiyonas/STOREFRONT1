@@ -167,10 +167,11 @@ class OrderItemAdmin(admin.ModelAdmin):
 @admin.register(Promotion)
 class PromotionAdmin(admin.ModelAdmin):
     list_display = []
- 
+
+@admin.register(Collection)
 class CollectionAdmin(admin.ModelAdmin):
     # required when another ModelAdmin uses autocomplete_fields to reference Collection
-    list_display = ['title','id']
+    list_display = ['title','products_count']
     search_fields = ['title']
     # didn't get this section will review
     @admin.display(ordering='products_count')
@@ -190,7 +191,7 @@ class CollectionAdmin(admin.ModelAdmin):
 
     #list_display = ['title']
     # # re-register Collection with its ModelAdmin
-admin.site.register(Collection, CollectionAdmin)
+#admin.site.register(Collection, CollectionAdmin)
 
 
 

@@ -1,3 +1,4 @@
+#-- Active: 1758372762867@@127.0.0.1@3306@storefront5
 """
 Django settings for storefront1 project.
 
@@ -100,16 +101,16 @@ WSGI_APPLICATION = 'storefront1.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'storefront',  # Replace with your database name
-        'USER': 'root',    # Replace with your MySQL username
-        'PASSWORD': 'Philimon_6613!', # Replace with your MySQL password
-        'HOST': 'localhost',          # Or your MySQL host
-        'PORT': '3306',               # Or your MySQL port
+        'NAME': 'storefront5',
+        'USER': 'root',
+        'PASSWORD': 'Philimon_6613!',
+        'HOST': 'localhost',
+        'PORT': '3306',
         'OPTIONS': {
-                'init_command': 'SET default_storage_engine=INNODB',
-            }
-        }
+            'init_command': 'SET default_storage_engine=INNODB',
+        },
     }
+}
 
 
 # Password validation
@@ -162,8 +163,8 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 REST_FRAMEWORK = { 
-    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',# WE DONT NEED TO SPECIFY THIS HERE B/C WE ARE SPECIFYING IT IN THE VIEWSET
-    'PAGE_SIZE': 10,  # Default page size
+    #'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',# WE DONT NEED TO SPECIFY THIS HERE B/C WE ARE SPECIFYING IT IN THE VIEWSET
+    #'PAGE_SIZE': 10,  # Default page size
     
     'COERCE_DECIMAL_TO_STRING': False,  # Ensures Decimal fields are returned as decimal numbers, not strings
 }
