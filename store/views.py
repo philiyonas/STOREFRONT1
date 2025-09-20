@@ -22,18 +22,19 @@ from rest_framework.viewsets import ModelViewSet
 
 
 class ProductViewSet(ModelViewSet):
+	queryset = Product.objects.all()
 	serializer_class = ProductSerializer # specify the serializer to be used for this viewset
 	filter_backends = [DjangoFilterBackend, SearchFilter, OrderingFilter] # add filtering
 	
 	
-	def get_queryset(self):
+	""" def get_queryset(self):
 		queryset = Product.objects.all() # this querry sets all products and their related collection in one go
 		collection_id = self.request.GET.get('collection_id')# changed to GET from query_params to match the request object method
 		if collection_id is not None:
 			queryset = queryset.filter(collection_id=collection_id)
-		return queryset
+		return queryset """
 	#filter_backends = [DjangoFilterBackend]
-	#filterset_fields = ['collection_id', 'unit_price'] # allows filtering products by collection_id and unit_price using query parameters
+	filterset_fields = ['collection_id'] # allows filtering products by collection_id and unit_price using query parameters
 
 	#search_fields = ['title', 'description'] # enables search by title and description using ?search=keyword
 	#ordering_fields = ['unit_price', 'last_update'] # allows ordering by unit_price and
