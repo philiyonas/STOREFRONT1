@@ -65,15 +65,12 @@ class ReviewViewSet(ModelViewSet):
 		return super().destroy(request, *args, **kwargs) 
 	
 
-class CartViewSet(CreateModelMixin, GenericViewSet):
-	queryset = Cart.objects.all()
-	serializer_class = CartSerializer
 
 class CartViewSet(CreateModelMixin,
                   RetrieveModelMixin,
                   DestroyModelMixin,
                   GenericViewSet):
-    queryset = Cart.objects.prefetch_related('items__product').all()
+    queryset = Cart.objects.prefetch_related('items__product').all()#queryset with prefetch related to optimize queries by reducing number of queries to get cart items and their products
     serializer_class = CartSerializer
 
 
