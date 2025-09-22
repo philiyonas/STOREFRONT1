@@ -5,6 +5,7 @@ from django.utils.html import format_html
 from django.utils.http import urlencode
 from django.db.models import Count
 
+
 from tags.models import TaggedItem  
 from .models import Collection, Customer, Order, OrderItem, Product, Promotion
 
@@ -192,6 +193,7 @@ class CollectionAdmin(admin.ModelAdmin):
     #list_display = ['title']
     # # re-register Collection with its ModelAdmin
 #admin.site.register(Collection, CollectionAdmin)
+
 
 
 

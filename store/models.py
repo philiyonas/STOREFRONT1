@@ -1,6 +1,8 @@
 from django.core.validators import MinValueValidator    
 from django.db import models
 from django.apps import apps
+from uuid import uuid4  
+
 
 # Create your models here.
 
@@ -41,12 +43,11 @@ class Product(models.Model):
         max_digits=6, decimal_places=2, 
         validators=[MinValueValidator(0.01)])
     inventory=models.IntegerField()
-    last_update=models.DateTimeField(auto_now=True)
+    last_update=models.DateTimeField(auto_now=True)#auto_now_add?
     collection = models.ForeignKey(
         Collection,
         on_delete=models.PROTECT,
         related_name='products',
-        #default=get_uncategorized_collection_pk
         blank=True,
         null=True
     )
@@ -139,15 +140,7 @@ class OrderItem(models.Model):
             models.Index(fields=['order']) # index on order for faster search
         ]
 
-class Cart(models.Model):
-    created_at=models.DateTimeField(auto_now_add=True)
-    cart_shared=models.BooleanField(default=False)# if true the cart can be shared with other users via a link
 
-
-class CartItem(models.Model):
-    cart=models.ForeignKey(Cart, on_delete=models.CASCADE)# if a cart is deleted all its items are deleted as well
-    product=models.ForeignKey(Product, on_delete=models.CASCADE)# if a product is deleted all its cart items are deleted as well                
-    quantity=models.PositiveSmallIntegerField()
 
 class Review(models.Model):
     '''if a product is deleted all its reviews are deleted as well and 
@@ -163,3 +156,24 @@ class Review(models.Model):
     
     class Meta:
         ordering=['-date'] # default ordering by date descending """
+
+
+class Cart(models.Model):
+    #id = models.UUIDField(primary_key=True, default=models.UUIDField) # use UUID for cart id for security reasons
+    id = models.UUIDField(primary_key=True, 
+                          default=uuid4, editable=False)  # generate UUID with uuid4
+    created_at=models.DateTimeField(auto_now_add=True)
+    cart_shared=models.BooleanField(default=True)# if true the cart can be shared with other users via a link
+
+
+class CartItem(models.Model):
+    cart=models.ForeignKey(Cart, 
+                           on_delete=models.CASCADE, 
+                           related_name='items')# if a cart is deleted all its items are deleted as well
+    product=models.ForeignKey(Product, on_delete=models.CASCADE)# if a product is deleted all its cart items are deleted as well                
+    quantity=models.PositiveSmallIntegerField(validators=[MinValueValidator(1)]
+)
+    #if product in cart increase quantity instead of adding a new item 
+    class Meta:
+        unique_together=[['cart', 'product']] # a product can only appear once in a cart consrianes list of list 
+        
