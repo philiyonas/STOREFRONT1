@@ -1,3 +1,18 @@
+"""
+Serializers for the store app.
+
+Provides DRF ModelSerializers used by the API:
+- CollectionSerializer: collection data and optional annotated products_count.
+- ProductSerializer: product data with computed price_with_tax, collection relation,
+    and custom validation for unit_price.
+- ReviewSerializer: creates reviews tied to a product (expects 'product_id' in serializer context).
+- SimpleProductSerializer: compact product representation for nesting in cart items.
+- CartItemSerializer & CartSerializer: nested cart representations with computed totals.
+- AddCartItemSerializer & UpdateCartItemSerializer: input serializers for adding/updating cart items,
+    including validation and custom save logic that requires 'cart_id' in context.
+
+These serializers work with models in store.models and Django REST Framework.
+"""
 from decimal import Decimal
 from store.models import Product, Collection, Review, Cart, CartItem    
 from rest_framework import serializers
@@ -81,7 +96,7 @@ class CartItemSerializer(serializers.ModelSerializer):# serializer for cart item
 
 class CartSerializer(serializers.ModelSerializer):# serializer for cart
     id = serializers.UUIDField(read_only=True)# read-only UUID field for cart ID
-    items = CartItemSerializer(many=True, read_only=True)# nested serializer for cart items
+    items = CartItemSerializer(many=True, read_only=True)# nested serializer for cart items this are called
     total_price = serializers.SerializerMethodField()# computed field for total price of the cart
 
     def get_total_price(self, cart): # compute total price of the cart by summing total prices of all cart items
