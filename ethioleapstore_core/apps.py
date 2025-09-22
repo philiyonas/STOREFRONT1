@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class CustomEthioleapstoreConfig(AppConfig):
+class ethioleapstore_coreConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'custom_ethioleapstore'
+    name = 'ethioleapstore_core'

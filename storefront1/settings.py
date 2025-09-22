@@ -41,12 +41,12 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_filters',  # for filtering support
     'rest_framework',
-    'playground',
-    'debug_toolbar',
-    'store',
-    'tags',
-    'custom_ethioleapstore',
-    'likes',
+    'playground',# reusabel apps
+    'debug_toolbar', # reusabel apps
+    'store', # reusabel apps
+    'tags', # reusabel apps
+    'likes', # reusabel apps
+    'ethioleapstore_core', # core app for ethioleapstore
 ]
 # Middleware configuration purposes
 # Middleware is a way to process requests globally before they reach the view or after the view has processed them.
@@ -166,3 +166,6 @@ REST_FRAMEWORK = {
   
     'COERCE_DECIMAL_TO_STRING': False,  # Ensures Decimal fields are returned as decimal numbers, not strings
 }
+
+
+AUTH_USER_MODEL = 'ethioleapstore_core.User' # custom user model
