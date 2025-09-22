@@ -1,4 +1,9 @@
-# views.py - request handlers for the store app it is convention to name it views.py but it can be named anything
+"""views,py  is the request handler module for the store app. It is a convention to name it views.py, but it can be named anything.
+This module defines various viewsets for handling requests related to products, collections, reviews, carts, and cart items.
+its implemetation uses Django REST Framework to create API endpoints for these resources.
+and it interacts with models defined in store.models and serializers in store.serializers.
+by using viewsets we can define the common behavior for a set of related views in a single class instead of defining each view separately."""
+
 
 from django.shortcuts import get_object_or_404 
 from django.db.models import Count
