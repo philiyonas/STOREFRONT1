@@ -127,10 +127,14 @@ class Address(models.Model):
 
 
 class OrderItem(models.Model):
-    order=models.ForeignKey(Order, on_delete=models.PROTECT)# if an order is deleted all its items are not deleted as well and an error is raised 
-    product = models.ForeignKey(Product, on_delete=models.PROTECT, related_name='orderitems')
+    order=models.ForeignKey(Order, 
+                            on_delete=models.PROTECT)# if an order is deleted all its items are not deleted as well and an error is raised 
+    product = models.ForeignKey(Product, 
+                                on_delete=models.PROTECT, 
+                                related_name='orderitems')
     quantity=models.PositiveSmallIntegerField()
-    unit_price=models.DecimalField(max_digits=6, decimal_places=2)
+    unit_price=models.DecimalField(max_digits=6, 
+                                   decimal_places=2)
 
     def __str__(self):
         return f'OrderItem {self.pk} - Order {self.order.pk} - Product {self.product.title}'
@@ -161,7 +165,8 @@ class Review(models.Model):
 class Cart(models.Model):
     #id = models.UUIDField(primary_key=True, default=models.UUIDField) # use UUID for cart id for security reasons
     id = models.UUIDField(primary_key=True, 
-                          default=uuid4, editable=False)  # generate UUID with uuid4
+                          default=uuid4, 
+                          editable=False)  # generate UUID with uuid4
     created_at=models.DateTimeField(auto_now_add=True)
     cart_shared=models.BooleanField(default=True)# if true the cart can be shared with other users via a link
 
